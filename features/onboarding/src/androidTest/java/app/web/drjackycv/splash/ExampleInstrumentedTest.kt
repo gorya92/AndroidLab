@@ -20,5 +20,6 @@ class ExampleInstrumentedTest {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
         assertEquals("app.web.drjackycv.splash.test", appContext.packageName)
+
     }
 }
