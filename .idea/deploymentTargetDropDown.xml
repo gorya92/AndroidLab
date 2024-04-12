@@ -2,6 +2,12 @@
 <project version="4">
   <component name="deploymentTargetDropDown">
     <value>
+      <entry key="MyFragmentTest">
+        <State />
+      </entry>
+      <entry key="MyFragmentTest (1)">
+        <State />
+      </entry>
       <entry key="app">
         <State>
           <targetSelectedWithDropDown>
@@ -17,6 +23,15 @@
           </targetSelectedWithDropDown>
           <timeTargetWasSelectedWithDropDown value="2024-04-10T19:26:19.731851Z" />
         </State>
+      </entry>
+      <entry key="mainTest()">
+        <State />
+      </entry>
+      <entry key="testFragment()">
+        <State />
+      </entry>
+      <entry key="testFragment() (1)">
+        <State />
       </entry>
     </value>
   </component>
