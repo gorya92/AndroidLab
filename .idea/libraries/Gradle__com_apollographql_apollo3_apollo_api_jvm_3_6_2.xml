@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.apollographql.apollo3:apollo-api-jvm:3.6.2" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="com.apollographql.apollo3" artifactId="apollo-api-jvm" version="3.6.2" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.apollographql.apollo3/apollo-api-jvm/3.6.2/4d829704103a07b2c2115b913c108e93799ce816/apollo-api-jvm-3.6.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

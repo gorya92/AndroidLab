@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="#410FA3">
+
+        <TextView
+            android:id="@+id/language_select"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/fredoka_regular"
+            android:gravity="center"
+            android:paddingEnd="24dp"
+            android:text="@string/language_select"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/mother_language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/fredoka_medium"
+            android:text="@string/what_is_your_mother_language"
+            android:textColor="@color/text_color"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:id="@+id/russianbtn"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rounded">
+
+            <TextView
+                android:id="@+id/russiantv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/fredoka_medium"
+                android:padding="16dp"
+                android:text="@string/russian"
+                android:textColor="@color/black"
+                android:textFontWeight="500"
+                android:textSize="22sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/englishbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/rounded"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/englishtv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fredoka_medium"
+                android:padding="16dp"
+                android:text="@string/english"
+                android:textColor="@color/black"
+                android:textFontWeight="500"
+                android:textSize="22sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/choosebtn"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_gravity="bottom"
+        android:layout_margin="24dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="#5B7BFE"
+        android:text="@string/choose"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+</LinearLayout>

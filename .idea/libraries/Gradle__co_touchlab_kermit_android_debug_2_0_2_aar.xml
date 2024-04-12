@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: co.touchlab:kermit-android-debug:2.0.2@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/2314a44671669de8e8f031530d54750b/transformed/kermit-debug/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2314a44671669de8e8f031530d54750b/transformed/kermit-debug/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/co.touchlab/kermit-android-debug/2.0.2/29fc7c7c69ca0d0bbd58526396e628421747ff39/kermit-android-debug-2.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

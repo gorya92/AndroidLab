@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation_id"
+    app:startDestination="@id/splash">
+
+    <fragment
+        android:id="@+id/splash"
+        android:name="app.web.drjackycv.features.splash.presentation.Splash"
+        tools:layout="@layout/splash">
+
+    </fragment>
+
+
+
+    <fragment
+        android:id="@+id/onboarding"
+        android:name="app.web.drjackycv.features.onboarding.presentation.OnBoarding"
+        tools:layout="@layout/onboarding">
+
+        <deepLink app:uri="android-app://app.web.drjackycv/onboarding" />
+
+    </fragment>
+
+
+
+    <fragment
+        android:id="@+id/language"
+        android:name="app.web.drjackycv.features.onboarding.presentation.ChoiceLanguage"
+        tools:layout="@layout/language_choice_fragment"
+        >
+
+        <deepLink app:uri="android-app://app.web.drjackycv/language" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/login"
+        android:name="app.web.drjackycv.features.onboarding.presentation.Login"
+        tools:layout="@layout/login_fragment"
+        >
+
+        <deepLink app:uri="android-app://app.web.drjackycv/login" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/signup"
+        android:name="app.web.drjackycv.features.onboarding.presentation.SignUp"
+        tools:layout="@layout/signup_fragment"
+        >
+
+        <deepLink app:uri="android-app://app.web.drjackycv/signup" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/signupPass"
+        android:name="app.web.drjackycv.features.onboarding.presentation.SignUpPass"
+        tools:layout="@layout/signup_pass_fragment"
+        >
+
+        <deepLink app:uri="android-app://app.web.drjackycv/signupPass" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/profile"
+        android:name="app.web.drjackycv.features.app.presentation.Profile"
+        tools:layout="@layout/profile"
+        >
+
+        <deepLink app:uri="android-app://app.web.drjackycv/profile" />
+
+    </fragment>
+
+</navigation>

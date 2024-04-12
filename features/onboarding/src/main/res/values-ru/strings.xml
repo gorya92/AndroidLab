@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Welcome</string>
+
+    <string name="onboarding_slide1_title">Confidence in your words</string>
+    <string name="onboarding_slide1_desc">With conversation-based learning,
+        you\'ll be talking from lesson one</string>
+
+    <string name="onboarding_slide2_title">Take your time to learn</string>
+    <string name="onboarding_slide2_desc">Develop a habit of learning and
+        make it a part of your daily routine</string>
+
+    <string name="onboarding_slide3_title">The lessons you need to learn</string>
+    <string name="onboarding_slide3_desc">Using a variety of learning styles to learn
+        and retain</string>
+
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="get_started">Get started</string>
+
+    <string name="username">Username</string>
+    <string name="password">Пароль</string>
+    <string name="remember_me">Remember me</string>
+    <string name="invalid_username">Invalid username</string>
+    <string name="invalid_password">Invalid password</string>
+
+    <string name="home_screen_title">Home</string>
+    <string name="home_screen_text">Can\'t walk? then fly!</string>
+    <string name="previous">previous</string>
+
+    <string name="russian">Русский</string>
+    <string name="english">Английский</string>
+    <string name="choose">Выбрать</string>
+    <string name="what_is_your_mother_language">Какой у вас родной язык?</string>
+    <string name="language_select">Выбор языка</string>
+
+    <string name="signup">Зарегистрироваться</string>
+    <string name="for_free_join_now_and_n_start_learning">Бесплатно, присоединяйтесь сейчас и\n начните учиться</string>
+    <string name="email_address">Адрес электронной почты</string>
+    <string name="email">Email</string>
+    <string name="not_you_member">Вы не зарегистрированы?</string>
+    <string name="use_can_use">можно использовать</string>
+    <string name="google_for"> Google для </string>
+    <string name="sign_in_small">авторизации</string>
+    <string name="forgot_password">Забыли пароль?</string>
+    <string name="login">Зайти</string>
+    <string name="new_user">Новый пользователь?</string>
+    <string name="sign_in">Войти</string>
+    <string name="signup_small"> Регистрация</string>
+
+    <string name="create_an_account">Создание аккаунта</string>
+    <string name="first_name">Имя</string>
+    <string name="your_first_name">Ваше Имя</string>
+    <string name="last_name">Фамилия</string>
+    <string name="your_last_name">Ваша Фамилия</string>
+    <string name="continue_">Продолжить</string>
+    <string name="already_you_member">Уже зарегестрированы?</string>
+    <string name="choose_a_password">Выберете пароль</string>
+    <string name="confirm_password">Подтвердите пароль</string>
+</resources>

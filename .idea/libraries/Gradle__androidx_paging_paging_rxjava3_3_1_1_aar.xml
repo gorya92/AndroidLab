@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.paging:paging-rxjava3:3.1.1@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/041682d84deb5bd14f82aea6c5eb0e0a/transformed/paging-rxjava3-3.1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/041682d84deb5bd14f82aea6c5eb0e0a/transformed/paging-rxjava3-3.1.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/041682d84deb5bd14f82aea6c5eb0e0a/transformed/paging-rxjava3-3.1.1/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.paging/paging-rxjava3/3.1.1/7d03d7e3255dc0bbb9b66623909bc050929f7b24/paging-rxjava3-3.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

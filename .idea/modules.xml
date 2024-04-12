@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MVIModularizationTemplate.iml" filepath="$PROJECT_DIR$/.idea/modules/MVIModularizationTemplate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MVIModularizationTemplate.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MVIModularizationTemplate.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MVIModularizationTemplate.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MVIModularizationTemplate.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MVIModularizationTemplate.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MVIModularizationTemplate.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MVIModularizationTemplate.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MVIModularizationTemplate.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MVIModularizationTemplate.buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/MVIModularizationTemplate.buildSrc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MVIModularizationTemplate.buildSrc.main.iml" filepath="$PROJECT_DIR$/.idea/modules/MVIModularizationTemplate.buildSrc.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MVIModularizationTemplate.buildSrc.test.iml" filepath="$PROJECT_DIR$/.idea/modules/MVIModularizationTemplate.buildSrc.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/MVIModularizationTemplate.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/MVIModularizationTemplate.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/exceptions/MVIModularizationTemplate.common.exceptions.iml" filepath="$PROJECT_DIR$/.idea/modules/common/exceptions/MVIModularizationTemplate.common.exceptions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/exceptions/MVIModularizationTemplate.common.exceptions.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/common/exceptions/MVIModularizationTemplate.common.exceptions.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/exceptions/MVIModularizationTemplate.common.exceptions.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/exceptions/MVIModularizationTemplate.common.exceptions.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/exceptions/MVIModularizationTemplate.common.exceptions.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/common/exceptions/MVIModularizationTemplate.common.exceptions.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/MVIModularizationTemplate.core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/MVIModularizationTemplate.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/designSystem/MVIModularizationTemplate.core.designSystem.iml" filepath="$PROJECT_DIR$/.idea/modules/core/designSystem/MVIModularizationTemplate.core.designSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/designSystem/MVIModularizationTemplate.core.designSystem.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/core/designSystem/MVIModularizationTemplate.core.designSystem.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/designSystem/MVIModularizationTemplate.core.designSystem.main.iml" filepath="$PROJECT_DIR$/.idea/modules/core/designSystem/MVIModularizationTemplate.core.designSystem.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/designSystem/MVIModularizationTemplate.core.designSystem.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/core/designSystem/MVIModularizationTemplate.core.designSystem.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/navigation/MVIModularizationTemplate.core.navigation.iml" filepath="$PROJECT_DIR$/.idea/modules/core/navigation/MVIModularizationTemplate.core.navigation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/navigation/MVIModularizationTemplate.core.navigation.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/core/navigation/MVIModularizationTemplate.core.navigation.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/navigation/MVIModularizationTemplate.core.navigation.main.iml" filepath="$PROJECT_DIR$/.idea/modules/core/navigation/MVIModularizationTemplate.core.navigation.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/navigation/MVIModularizationTemplate.core.navigation.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/core/navigation/MVIModularizationTemplate.core.navigation.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/network/MVIModularizationTemplate.core.network.iml" filepath="$PROJECT_DIR$/.idea/modules/core/network/MVIModularizationTemplate.core.network.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/network/MVIModularizationTemplate.core.network.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/core/network/MVIModularizationTemplate.core.network.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/network/MVIModularizationTemplate.core.network.main.iml" filepath="$PROJECT_DIR$/.idea/modules/core/network/MVIModularizationTemplate.core.network.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/network/MVIModularizationTemplate.core.network.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/core/network/MVIModularizationTemplate.core.network.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/MVIModularizationTemplate.features.iml" filepath="$PROJECT_DIR$/.idea/modules/features/MVIModularizationTemplate.features.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/app/MVIModularizationTemplate.features.app.iml" filepath="$PROJECT_DIR$/.idea/modules/features/app/MVIModularizationTemplate.features.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/app/MVIModularizationTemplate.features.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/features/app/MVIModularizationTemplate.features.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/app/MVIModularizationTemplate.features.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/features/app/MVIModularizationTemplate.features.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/app/MVIModularizationTemplate.features.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/features/app/MVIModularizationTemplate.features.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/main/MVIModularizationTemplate.features.main.iml" filepath="$PROJECT_DIR$/.idea/modules/features/main/MVIModularizationTemplate.features.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/main/MVIModularizationTemplate.features.main.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/features/main/MVIModularizationTemplate.features.main.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/main/MVIModularizationTemplate.features.main.main.iml" filepath="$PROJECT_DIR$/.idea/modules/features/main/MVIModularizationTemplate.features.main.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/main/MVIModularizationTemplate.features.main.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/features/main/MVIModularizationTemplate.features.main.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/onboarding/MVIModularizationTemplate.features.onboarding.iml" filepath="$PROJECT_DIR$/.idea/modules/features/onboarding/MVIModularizationTemplate.features.onboarding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/onboarding/MVIModularizationTemplate.features.onboarding.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/features/onboarding/MVIModularizationTemplate.features.onboarding.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/onboarding/MVIModularizationTemplate.features.onboarding.main.iml" filepath="$PROJECT_DIR$/.idea/modules/features/onboarding/MVIModularizationTemplate.features.onboarding.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/onboarding/MVIModularizationTemplate.features.onboarding.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/features/onboarding/MVIModularizationTemplate.features.onboarding.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/splash/MVIModularizationTemplate.features.splash.iml" filepath="$PROJECT_DIR$/.idea/modules/features/splash/MVIModularizationTemplate.features.splash.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/splash/MVIModularizationTemplate.features.splash.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/features/splash/MVIModularizationTemplate.features.splash.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/splash/MVIModularizationTemplate.features.splash.main.iml" filepath="$PROJECT_DIR$/.idea/modules/features/splash/MVIModularizationTemplate.features.splash.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/splash/MVIModularizationTemplate.features.splash.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/features/splash/MVIModularizationTemplate.features.splash.unitTest.iml" />
+    </modules>
+  </component>
+</project>

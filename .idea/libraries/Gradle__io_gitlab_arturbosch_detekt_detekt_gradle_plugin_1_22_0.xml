@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: io.gitlab.arturbosch.detekt:detekt-gradle-plugin:1.22.0" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="io.gitlab.arturbosch.detekt" artifactId="detekt-gradle-plugin" version="1.22.0" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.gitlab.arturbosch.detekt/detekt-gradle-plugin/1.22.0/d58953daaecdffa3c4abb191a18bbff6f0d8fd1c/detekt-gradle-plugin-1.22.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.gitlab.arturbosch.detekt/detekt-gradle-plugin/1.22.0/c5615ed192e89337d9c4605223a13f6133946ed7/detekt-gradle-plugin-1.22.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

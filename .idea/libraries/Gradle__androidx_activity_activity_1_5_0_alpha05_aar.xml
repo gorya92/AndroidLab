@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.activity:activity:1.5.0-alpha05@aar" external-system-id="GRADLE">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/a20f5342e3c0e5692ac4150c6e55e045/transformed/activity-1.5.0-alpha05/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a20f5342e3c0e5692ac4150c6e55e045/transformed/activity-1.5.0-alpha05/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/a20f5342e3c0e5692ac4150c6e55e045/transformed/activity-1.5.0-alpha05/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a20f5342e3c0e5692ac4150c6e55e045/transformed/activity-1.5.0-alpha05/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.activity/activity/1.5.0-alpha05/dcc2cf874dbc325a477a11f1791cc04018910a52/activity-1.5.0-alpha05-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

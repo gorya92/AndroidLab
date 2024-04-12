@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.kotlin:kotlin-annotation-processing-gradle:1.8.10" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="org.jetbrains.kotlin" artifactId="kotlin-annotation-processing-gradle" version="1.8.10" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-annotation-processing-gradle/1.8.10/ad05a4188f984f89630571206974f0cf52d7ab8f/kotlin-annotation-processing-gradle-1.8.10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-annotation-processing-gradle/1.8.10/5b8f86fea035328fc9e8c660773037a3401ce25f/kotlin-annotation-processing-gradle-1.8.10-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
