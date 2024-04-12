@@ -139,7 +139,6 @@ class Login : Fragment(R.layout.login_fragment) {
                         val regex = Regex("\\bAuthenticated\\b")
                         val matchResult = regex.find(stat)
                         stat = matchResult?.value ?: ""
-
                         if (stat != "") {
                             prefManager.isAuth = true
                             prefManager.email = binding.emailInput.text.toString().trim()

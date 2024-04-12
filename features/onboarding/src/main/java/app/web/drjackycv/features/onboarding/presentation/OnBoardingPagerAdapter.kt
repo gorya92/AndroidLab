@@ -20,7 +20,6 @@ class OnBoardingPagerAdapter(private val onBoardingPageList: Array<OnBoardingPag
             ).let { binding -> PagerViewHolder(binding) }
         }
 
-
     override fun getItemCount() = onBoardingPageList.size
 
     override fun onBindViewHolder(holder: PagerViewHolder, position: Int) {

@@ -35,7 +35,6 @@ class SignUp : Fragment(R.layout.signup_fragment) {
         validateBackArrow()
     }
 
-
     private fun validateEmail(): Boolean {
         val emailInput = binding.emailInput.text.toString().trim()
         val emailPattern = Regex("^[a-z0-9]+@[a-z0-9]+\\.[a-z]{2,4}\$")
