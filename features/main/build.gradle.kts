@@ -47,6 +47,9 @@ dependencies {
     implementation(Depends.Libraries.paging_rx)
     //dependency injection
     implementation(Depends.Libraries.hilt_android)
+    implementation("androidx.fragment:fragment-testing:1.6.2")
+    androidTestImplementation("androidx.test.espresso:espresso-core:3.6.0-alpha03")
+    androidTestImplementation("androidx.test.ext:junit:1.2.0-alpha03")
     kapt(Depends.Libraries.hilt_android_compiler)
     kapt(Depends.Libraries.hilt_compiler)
     implementation(Depends.Libraries.java_inject)

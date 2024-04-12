@@ -49,6 +49,7 @@ dependencies {
     //dependency injection
     implementation(project(":common:exceptions"))
     implementation(Depends.Libraries.java_inject)
+    implementation("androidx.fragment:fragment-testing:1.6.2")
     //test
     testImplementation(Depends.Libraries.junit)
     testImplementation(Depends.Libraries.mockito_core)

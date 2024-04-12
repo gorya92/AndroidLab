@@ -67,7 +67,6 @@ class ChoiceLanguage : Fragment(R.layout.language_choice_fragment) {
         binding.russiantv.text = getString(R.string.russian)
         binding.englishtv.text = getString(R.string.english)
         binding.choosebtn.text = getString(R.string.choose)
-        binding.languageSelect.text = getString(R.string.language_select)
         binding.motherLanguage.text = getString(R.string.what_is_your_mother_language)
     }
 }
