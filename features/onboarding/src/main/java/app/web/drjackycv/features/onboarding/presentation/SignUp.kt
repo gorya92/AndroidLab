@@ -33,6 +33,7 @@ class SignUp : Fragment(R.layout.signup_fragment) {
         validateLoginButton()
         validateSignUpButton()
         validateBackArrow()
+
     }
 
     private fun validateEmail(): Boolean {

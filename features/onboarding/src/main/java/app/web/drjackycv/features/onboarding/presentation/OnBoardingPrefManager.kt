@@ -73,6 +73,15 @@ class OnBoardingPrefManager(_context: Context) {
             editor.commit()
         }
 
+    var id: String?
+        get() {
+            return pref.getString(ID, "")
+        }
+        set(isFirstTime) {
+            editor.putString(ID, isFirstTime)
+            editor.commit()
+        }
+
 
     init {
         pref = _context.getSharedPreferences(PREF_NAME, Context.MODE_PRIVATE)
@@ -81,6 +90,7 @@ class OnBoardingPrefManager(_context: Context) {
 
     companion object {
         private const val IS_RUSSIAN_ACTIVE = "IS_RUSSIAN_ACTIVE"
+        private const val ID = "ID"
         private const val FIRST_NAME = "FIRST_NAME"
         private const val LAST_NAME = "LAST_NAME"
         private const val EMAIL = "EMAIL"

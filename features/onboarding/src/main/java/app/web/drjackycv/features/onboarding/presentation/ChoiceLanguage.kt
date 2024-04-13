@@ -20,9 +20,9 @@ class ChoiceLanguage : Fragment(R.layout.language_choice_fragment) {
         super.onViewCreated(view, savedInstanceState)
         prefManager = OnBoardingPrefManager(requireContext())
         setupListeners()
-        if (!prefManager.isLanguagedChoised) {
+        if (prefManager.isLanguagedChoised) {
             val request = NavDeepLinkRequest.Builder
-                .fromUri("android-app://app.web.drjackycv/language".toUri())
+                .fromUri("android-app://app.web.drjackycv/login".toUri())
                 .build()
             findNavController().navigate(request)
         }

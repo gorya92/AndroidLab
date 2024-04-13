@@ -64,7 +64,16 @@ dependencies {
     androidTestImplementation(Depends.Libraries.test_ext_junit)
     androidTestImplementation(Depends.Libraries.test_runner)
     androidTestImplementation(Depends.Libraries.espresso_core)
-
+    implementation("de.hdodenhof:circleimageview:3.1.0")
+    api("com.theartofdev.edmodo:android-image-cropper:2.8.+")
+    implementation("io.github.jan-tennert.supabase:postgrest-kt:2.0.0")
+    implementation("io.github.jan-tennert.supabase:storage-kt:2.0.0")
+    implementation("io.github.jan-tennert.supabase:gotrue-kt:2.0.0")
+    implementation("io.ktor:ktor-client-android:2.2.1")
+    implementation("io.ktor:ktor-client-core:2.3.6")
+    implementation("io.ktor:ktor-utils:2.3.6")
+    implementation("androidx.credentials:credentials:1.2.2")
+    implementation("com.google.android.libraries.identity.googleid:googleid:1.1.0")
     implementation(project(Depends.Core.navigation))
     implementation(project(Depends.Core.designSystem))
 }

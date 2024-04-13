@@ -1,0 +1,8 @@
+<resources>
+    <string name="start">S T A R T</string>
+    <string name="your_profile">Ваш профиль,</string>
+    <string name="change_mother_language">Сменить язык</string>
+    <string name="switch_theme">Сменить тему</string>
+    <string name="change_your_image">Сменить изображение</string>
+    <string name="logout">Выйти</string>
+</resources>

@@ -63,103 +63,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="168ec69c-20b0-4229-9edc-4c682ab3adaf" name="Changes" comment="REFACTOR">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_7_2_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_ktx_1_7_2_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_6_2_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_ktx_1_6_2_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_testing_1_6_2_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_testing_manifest_1_6_2_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_6_0_alpha03_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_6_0_alpha03_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_ext_junit_1_2_0_alpha03_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_6_0_alpha06_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_errorprone_error_prone_annotations_2_18_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.6/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.6/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.6/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.6/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/MVIModularizationTemplate.app.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/MVIModularizationTemplate.app.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/MVIModularizationTemplate.app.unitTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/MVIModularizationTemplate.app.unitTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/features/onboarding/MVIModularizationTemplate.features.onboarding.androidTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/features/onboarding/MVIModularizationTemplate.features.onboarding.androidTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/features/onboarding/MVIModularizationTemplate.features.onboarding.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/features/onboarding/MVIModularizationTemplate.features.onboarding.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CODE_OF_CONDUCT.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CONTRIBUTING.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/7.6/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/7.6/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/Login$onViewCreated$$inlined$doAfterTextChanged$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/Login$onViewCreated$$inlined$doAfterTextChanged$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/Login$onViewCreated$1$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/Login$onViewCreated$1$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/Login$special$$inlined$viewBinding$default$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/Login$special$$inlined$viewBinding$default$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/Login$validateGoogleButton$1$1$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/Login$validateGoogleButton$1$1$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/Login$validateGoogleButton$1$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/Login$validateGoogleButton$1$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/Login$validateLoginButton$1$1$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/Login$validateLoginButton$1$1$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/Login$validateLoginButton$1$1$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/Login$validateLoginButton$1$1$2.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/Login$validateLoginButton$1$1$result$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/Login$validateLoginButton$1$1$result$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/Login$validateLoginButton$1$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/Login$validateLoginButton$1$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/Login.dex" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/Login.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/intermediates/compile_library_classes_jar/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/intermediates/compile_library_classes_jar/debug/classes.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/intermediates/compiled_local_resources/debug/out/layout_language_choice_fragment.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/intermediates/compiled_local_resources/debug/out/layout_language_choice_fragment.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/intermediates/incremental/debug/packageDebugResources/stripped.dir/layout/language_choice_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/intermediates/incremental/debug/packageDebugResources/stripped.dir/layout/language_choice_fragment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/intermediates/incremental/debug/packageDebugResources/stripped.dir/layout/login_fragment.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/intermediates/incremental/debug/packageDebugResources/stripped.dir/layout/onboarding.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/intermediates/incremental/debug/packageDebugResources/stripped.dir/layout/onboarding_page_item.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/intermediates/incremental/debug/packageDebugResources/stripped.dir/layout/onboarding_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/intermediates/packaged_res/debug/layout/language_choice_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/intermediates/packaged_res/debug/layout/language_choice_fragment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/intermediates/runtime_library_classes_dir/debug/app/web/drjackycv/features/onboarding/presentation/Login$onViewCreated$$inlined$doAfterTextChanged$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/intermediates/runtime_library_classes_dir/debug/app/web/drjackycv/features/onboarding/presentation/Login$onViewCreated$$inlined$doAfterTextChanged$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/intermediates/runtime_library_classes_dir/debug/app/web/drjackycv/features/onboarding/presentation/Login$onViewCreated$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/intermediates/runtime_library_classes_dir/debug/app/web/drjackycv/features/onboarding/presentation/Login$onViewCreated$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/intermediates/runtime_library_classes_dir/debug/app/web/drjackycv/features/onboarding/presentation/Login$special$$inlined$viewBinding$default$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/intermediates/runtime_library_classes_dir/debug/app/web/drjackycv/features/onboarding/presentation/Login$special$$inlined$viewBinding$default$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/intermediates/runtime_library_classes_dir/debug/app/web/drjackycv/features/onboarding/presentation/Login$validateGoogleButton$1$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/intermediates/runtime_library_classes_dir/debug/app/web/drjackycv/features/onboarding/presentation/Login$validateGoogleButton$1$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/intermediates/runtime_library_classes_dir/debug/app/web/drjackycv/features/onboarding/presentation/Login$validateGoogleButton$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/intermediates/runtime_library_classes_dir/debug/app/web/drjackycv/features/onboarding/presentation/Login$validateGoogleButton$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/intermediates/runtime_library_classes_dir/debug/app/web/drjackycv/features/onboarding/presentation/Login$validateLoginButton$1$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/intermediates/runtime_library_classes_dir/debug/app/web/drjackycv/features/onboarding/presentation/Login$validateLoginButton$1$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/intermediates/runtime_library_classes_dir/debug/app/web/drjackycv/features/onboarding/presentation/Login$validateLoginButton$1$1$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/intermediates/runtime_library_classes_dir/debug/app/web/drjackycv/features/onboarding/presentation/Login$validateLoginButton$1$1$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/intermediates/runtime_library_classes_dir/debug/app/web/drjackycv/features/onboarding/presentation/Login$validateLoginButton$1$1$result$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/intermediates/runtime_library_classes_dir/debug/app/web/drjackycv/features/onboarding/presentation/Login$validateLoginButton$1$1$result$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/intermediates/runtime_library_classes_dir/debug/app/web/drjackycv/features/onboarding/presentation/Login$validateLoginButton$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/intermediates/runtime_library_classes_dir/debug/app/web/drjackycv/features/onboarding/presentation/Login$validateLoginButton$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/intermediates/runtime_library_classes_dir/debug/app/web/drjackycv/features/onboarding/presentation/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/intermediates/runtime_library_classes_dir/debug/app/web/drjackycv/features/onboarding/presentation/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/intermediates/runtime_library_classes_jar/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/intermediates/runtime_library_classes_jar/debug/classes.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/last-build.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/local-state/build-history.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/last-build.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/kaptGenerateStubsDebugKotlin/local-state/build-history.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/tmp/kotlin-classes/debug/app/web/drjackycv/features/onboarding/presentation/Login$onViewCreated$$inlined$doAfterTextChanged$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/tmp/kotlin-classes/debug/app/web/drjackycv/features/onboarding/presentation/Login$onViewCreated$$inlined$doAfterTextChanged$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/tmp/kotlin-classes/debug/app/web/drjackycv/features/onboarding/presentation/Login$onViewCreated$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/tmp/kotlin-classes/debug/app/web/drjackycv/features/onboarding/presentation/Login$onViewCreated$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/tmp/kotlin-classes/debug/app/web/drjackycv/features/onboarding/presentation/Login$special$$inlined$viewBinding$default$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/tmp/kotlin-classes/debug/app/web/drjackycv/features/onboarding/presentation/Login$special$$inlined$viewBinding$default$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/tmp/kotlin-classes/debug/app/web/drjackycv/features/onboarding/presentation/Login$special$$inlined$viewModels$default$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/tmp/kotlin-classes/debug/app/web/drjackycv/features/onboarding/presentation/Login$special$$inlined$viewModels$default$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/tmp/kotlin-classes/debug/app/web/drjackycv/features/onboarding/presentation/Login$special$$inlined$viewModels$default$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/tmp/kotlin-classes/debug/app/web/drjackycv/features/onboarding/presentation/Login$special$$inlined$viewModels$default$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/tmp/kotlin-classes/debug/app/web/drjackycv/features/onboarding/presentation/Login$special$$inlined$viewModels$default$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/tmp/kotlin-classes/debug/app/web/drjackycv/features/onboarding/presentation/Login$special$$inlined$viewModels$default$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/tmp/kotlin-classes/debug/app/web/drjackycv/features/onboarding/presentation/Login$validateGoogleButton$1$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/tmp/kotlin-classes/debug/app/web/drjackycv/features/onboarding/presentation/Login$validateGoogleButton$1$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/tmp/kotlin-classes/debug/app/web/drjackycv/features/onboarding/presentation/Login$validateGoogleButton$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/tmp/kotlin-classes/debug/app/web/drjackycv/features/onboarding/presentation/Login$validateGoogleButton$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/tmp/kotlin-classes/debug/app/web/drjackycv/features/onboarding/presentation/Login$validateLoginButton$1$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/tmp/kotlin-classes/debug/app/web/drjackycv/features/onboarding/presentation/Login$validateLoginButton$1$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/tmp/kotlin-classes/debug/app/web/drjackycv/features/onboarding/presentation/Login$validateLoginButton$1$1$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/tmp/kotlin-classes/debug/app/web/drjackycv/features/onboarding/presentation/Login$validateLoginButton$1$1$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/tmp/kotlin-classes/debug/app/web/drjackycv/features/onboarding/presentation/Login$validateLoginButton$1$1$result$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/tmp/kotlin-classes/debug/app/web/drjackycv/features/onboarding/presentation/Login$validateLoginButton$1$1$result$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/tmp/kotlin-classes/debug/app/web/drjackycv/features/onboarding/presentation/Login$validateLoginButton$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/tmp/kotlin-classes/debug/app/web/drjackycv/features/onboarding/presentation/Login$validateLoginButton$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/tmp/kotlin-classes/debug/app/web/drjackycv/features/onboarding/presentation/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/tmp/kotlin-classes/debug/app/web/drjackycv/features/onboarding/presentation/Login.class" afterDir="false" />
+    <list default="true" id="168ec69c-20b0-4229-9edc-4c682ab3adaf" name="Changes" comment="Session-2">
+      <change beforePath="$PROJECT_DIR$/features/app/src/main/java/app/web/drjackycv/features/app/presentation/Profile.kt" beforeDir="false" afterPath="$PROJECT_DIR$/features/app/src/main/java/app/web/drjackycv/features/app/presentation/Profile.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +106,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Session-1" />
+        <entry key="$PROJECT_DIR$" value="Main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -226,7 +131,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "Main",
+    "git-widget-placeholder": "Session-2",
     "last_opened_file_path": "C:/Users/pospi/StudioProjects/MVIModularizationTemplate/features/onboarding/src/androidTest/java/app/web/drjackycv/splash",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.17",
@@ -253,7 +158,7 @@
       <recent name="app.web.drjackycv.features.onboarding.presentation" />
     </key>
   </component>
-  <component name="RunManager" selected="Android Instrumented Tests.MyFragmentTest (1)">
+  <component name="RunManager" selected="Android App.app">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="MVIModularizationTemplate.app.main" />
       <option name="DEPLOY" value="true" />
@@ -690,7 +595,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712918354283</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Session-2">
+      <option name="closed" value="true" />
+      <created>1712995181233</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712995181233</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -712,6 +625,7 @@
     <MESSAGE value="RED" />
     <MESSAGE value="GREEN" />
     <MESSAGE value="REFACTOR" />
-    <option name="LAST_COMMIT_MESSAGE" value="REFACTOR" />
+    <MESSAGE value="Session-2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Session-2" />
   </component>
 </project>

@@ -96,6 +96,7 @@ dependencies {
     androidTestImplementation(Depends.Libraries.test_ext_junit)
     androidTestImplementation(Depends.Libraries.test_runner)
     androidTestImplementation(Depends.Libraries.espresso_core)
+    api("com.theartofdev.edmodo:android-image-cropper:2.8.+")
 
     implementation(project(Depends.Core.network))
     implementation(project(Depends.Core.designSystem))
