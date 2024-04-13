@@ -3,6 +3,7 @@ import app.web.drjackycv.buildsrc.Depends
 plugins {
     id("common-android-lib")
     id("dagger.hilt.android.plugin")
+    kotlin("plugin.serialization")
 }
 
 android {

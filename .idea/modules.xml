@@ -45,6 +45,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/splash/MVIModularizationTemplate.features.splash.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/features/splash/MVIModularizationTemplate.features.splash.androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/splash/MVIModularizationTemplate.features.splash.main.iml" filepath="$PROJECT_DIR$/.idea/modules/features/splash/MVIModularizationTemplate.features.splash.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/splash/MVIModularizationTemplate.features.splash.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/features/splash/MVIModularizationTemplate.features.splash.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/app/app.MVIModularizationTemplate.features.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/features/app/app.MVIModularizationTemplate.features.app.androidTest.iml" />
     </modules>
   </component>
 </project>

@@ -67,7 +67,7 @@ class Login : Fragment(R.layout.login_fragment) {
         }
         if (prefManager.isAuth) {
             val request = NavDeepLinkRequest.Builder
-                .fromUri("android-app://app.web.drjackycv/profile".toUri())
+                .fromUri("android-app://app.web.drjackycv/main".toUri())
                 .build()
             findNavController().popBackStack()
             findNavController().navigate(request)
@@ -166,7 +166,7 @@ class Login : Fragment(R.layout.login_fragment) {
                             prefManager.isAuth = true
                             prefManager.email = binding.emailInput.text.toString().trim()
                             val request = NavDeepLinkRequest.Builder
-                                .fromUri("android-app://app.web.drjackycv/profile".toUri())
+                                .fromUri("android-app://app.web.drjackycv/main".toUri())
                                 .build()
                             findNavController().navigate(request)
                         } else {

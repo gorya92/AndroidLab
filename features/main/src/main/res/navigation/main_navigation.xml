@@ -75,4 +75,14 @@
 
     </fragment>
 
+    <fragment
+        android:id="@+id/main"
+        android:name="app.web.drjackycv.features.app.presentation.MainScreen"
+        tools:layout="@layout/main_fragment"
+        >
+
+        <deepLink app:uri="android-app://app.web.drjackycv/main" />
+
+    </fragment>
+
 </navigation>

@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:backgroundTint="@color/colorPrimary"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#410FA3"
+        android:orientation="vertical"
+        android:paddingStart="24dp"
+
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_avatar"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="8dp"
+            android:src="#FFFFFF"
+            android:scaleType="centerCrop"
+            android:contentDescription=""/>
+
+        <TextView
+            android:id="@+id/profiletv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hello"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/fredoka_medium"
+            android:textSize="22sp"
+            android:textFontWeight="500"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/are_you_ready_for_learning_today"
+            android:textColor="#B6B6B6"
+            android:textSize="17sp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/top_users"
+            android:textColor="@color/text_color"
+            android:textSize="20sp"
+            android:fontFamily="@font/fredoka_medium"
+            />
+
+        <LinearLayout
+            android:id="@+id/first_top"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:backgroundTint="#E5E5E5"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:background="@drawable/rounded_active"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/first"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/first_top_email"
+                android:text="Vincent van Gogh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:paddingStart="24dp"
+                android:fontFamily="@font/fredoka_regular"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/first_top_points"
+                android:text="points"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+
+                android:paddingStart="24dp"
+                android:fontFamily="@font/fredoka_medium"
+                android:layout_gravity="center|end"
+                android:gravity="end"
+                android:layout_marginEnd="14sp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/second_top"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#E5E5E5"
+            android:orientation="horizontal"
+            android:background="@drawable/rounded_active"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/second_image"
+                android:layout_marginStart="20dp"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/second_top_email"
+                android:text="Vincent van Gogh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+
+                android:textSize="17sp"
+                android:paddingStart="24dp"
+                android:fontFamily="@font/fredoka_regular"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/second_top_points"
+                android:text="points"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+
+                android:paddingStart="24dp"
+                android:fontFamily="@font/fredoka_medium"
+                android:layout_gravity="center|end"
+                android:gravity="end"
+                android:layout_marginEnd="14sp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/third_top"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:backgroundTint="#E5E5E5"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:background="@drawable/rounded_active"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/third_image"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/third_top_email"
+                android:text="Vincent van Gogh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+
+                android:paddingStart="24dp"
+                android:fontFamily="@font/fredoka_regular"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/third_top_points"
+                android:text="points"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:paddingStart="24dp"
+                android:textColor="@color/black"
+
+                android:fontFamily="@font/fredoka_medium"
+                android:layout_gravity="center|end"
+                android:gravity="end"
+                android:layout_marginEnd="14sp"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textSize="20sp"
+            android:fontFamily="@font/fredoka_medium"
+            android:textColor="@color/text_color"
+            android:text="@string/available_excersises"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:background="@drawable/rounded_active"
+            android:backgroundTint="#5B7BFE"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_gravity="center"
+                android:src="@drawable/firstgame"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guess_the_animal"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center"
+                />
+        </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/second_game"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="40dp"
+                android:background="@drawable/rounded_active"
+                android:backgroundTint="#D6185D"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/second"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/word_practice"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center"
+                    />
+            </LinearLayout>
+
+</LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:id="@+id/third_game"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:background="@drawable/rounded_active"
+                android:backgroundTint="#F76400"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/third"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/audition"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="40dp"
+                android:background="@drawable/rounded_active"
+                android:backgroundTint="#5BA890"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/fourth"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/game"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
