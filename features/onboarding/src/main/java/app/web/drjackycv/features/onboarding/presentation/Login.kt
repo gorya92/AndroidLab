@@ -65,6 +65,13 @@ class Login : Fragment(R.layout.login_fragment) {
             }
             install(Storage)
         }
+        if (prefManager.isAuth) {
+            val request = NavDeepLinkRequest.Builder
+                .fromUri("android-app://app.web.drjackycv/profile".toUri())
+                .build()
+            findNavController().popBackStack()
+            findNavController().navigate(request)
+        }
         binding.emailInput.doAfterTextChanged {
             validateEmail()
         }
@@ -130,7 +137,6 @@ class Login : Fragment(R.layout.login_fragment) {
             if (binding.emailInput.text.toString() != "" && validateEmail() && binding.passwordInput.text != null) {
                 CoroutineScope(Dispatchers.Main).launch {
                     try {
-                        Log.e("JOPS", "DONE")
                         val result = supabaseClient.auth.signInWith(Email) {
                             this.email = binding.emailInput.text.toString().trim()
                             this.password = binding.passwordInput.text.toString().trim()
@@ -138,8 +144,25 @@ class Login : Fragment(R.layout.login_fragment) {
                         var stat = supabaseClient.auth.sessionStatus.value.toString()
                         val regex = Regex("\\bAuthenticated\\b")
                         val matchResult = regex.find(stat)
+                        val sessionInfo = supabaseClient.auth.sessionStatus.value.toString()
+
                         stat = matchResult?.value ?: ""
                         if (stat != "") {
+                            // Ищем индекс начала ID пользователя
+                            val startIndex = sessionInfo.indexOf("userId=")
+
+                            if (startIndex != -1) {
+                                // Находим индекс конца ID пользователя (первый символ после ID)
+                                val endIndex = sessionInfo.indexOf(")", startIndex)
+
+                                // Если конец ID пользователя найден
+                                if (endIndex != -1) {
+                                    // Получаем подстроку, содержащую ID пользователя
+                                    val userIdSubstring =
+                                        sessionInfo.substring(startIndex + 7, endIndex)
+                                    prefManager.id = userIdSubstring
+                                }
+                            }
                             prefManager.isAuth = true
                             prefManager.email = binding.emailInput.text.toString().trim()
                             val request = NavDeepLinkRequest.Builder
@@ -157,7 +180,6 @@ class Login : Fragment(R.layout.login_fragment) {
                         }
                     } catch (e: Exception) {
                         withContext(Dispatchers.Main) {
-                            Log.e("JOPS", e.toString())
                             Toast.makeText(
                                 requireContext(),
                                 "Ошибка аутентификации",
@@ -175,7 +197,6 @@ class Login : Fragment(R.layout.login_fragment) {
         binding.googleBtn.setOnClickListener {
             CoroutineScope(Dispatchers.IO).launch {
                 try {
-                    Log.e("JOPS", "DONE")
                     val credentialManager = CredentialManager.create(requireContext())
 
                     // Generate a nonce and hash it with sha-256
@@ -215,7 +236,6 @@ class Login : Fragment(R.layout.login_fragment) {
                         nonce = rawNonce
                     }
                 } catch (e: Exception) {
-                    Log.e("JOPS", e.toString())
                 }
             }
         }

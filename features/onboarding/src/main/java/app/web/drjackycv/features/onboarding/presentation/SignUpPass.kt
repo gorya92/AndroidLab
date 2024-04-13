@@ -99,6 +99,21 @@ class SignUpPass : Fragment(R.layout.signup_pass_fragment) {
                         stat = matchResult?.value ?: ""
 
                         if (stat != "") {
+                            val sessionInfo = supabaseClient.auth.sessionStatus.value.toString()
+                            val startIndex = sessionInfo.indexOf("userId=")
+
+                            if (startIndex != -1) {
+                                // Находим индекс конца ID пользователя (первый символ после ID)
+                                val endIndex = sessionInfo.indexOf(")", startIndex)
+
+                                // Если конец ID пользователя найден
+                                if (endIndex != -1) {
+                                    // Получаем подстроку, содержащую ID пользователя
+                                    val userIdSubstring =
+                                        sessionInfo.substring(startIndex + 7, endIndex)
+                                    prefManager.id = userIdSubstring
+                                }
+                            }
                             prefManager.isAuth = true
                             val request = NavDeepLinkRequest.Builder
                                 .fromUri("android-app://app.web.drjackycv/profile".toUri())

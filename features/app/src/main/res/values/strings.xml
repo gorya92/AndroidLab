@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="start">S T A R T</string>
+    <string name="your_profile">Your profile,</string>
+    <string name="change_mother_language">Change mother language</string>
+    <string name="switch_theme">Switch theme</string>
+    <string name="change_your_image">Change your image</string>
+    <string name="logout">Logout</string>
 </resources>

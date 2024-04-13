@@ -18,7 +18,7 @@
             android:fontFamily="@font/fredoka_regular"
             android:gravity="center"
             android:paddingEnd="24dp"
-            android:text=""
+            android:text="@string/language_select"
             android:textColor="@color/white"
             android:textSize="17sp"
             android:textStyle="normal" />
