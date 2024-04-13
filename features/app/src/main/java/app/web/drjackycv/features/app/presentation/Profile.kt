@@ -2,6 +2,7 @@ package app.web.drjackycv.features.app.presentation
 
 import android.app.Activity
 import android.content.Intent
+import android.graphics.BitmapFactory
 import android.net.Uri
 import android.os.Bundle
 import android.provider.MediaStore
@@ -34,6 +35,7 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 import java.io.InputStream
 import java.util.UUID
 
@@ -64,6 +66,32 @@ class Profile : Fragment(R.layout.profile) {
         changeTheme()
         changeLanguage()
         binding.profiletv.text = "${binding.profiletv.text} ${prefManager.email}"
+        downloadAndDisplayProfilePicture()
+    }
+
+    private fun downloadAndDisplayProfilePicture() {
+        val userId = prefManager.id // Get user ID from shared preferences
+        val filename = "image$userId.png"
+
+        CoroutineScope(Dispatchers.IO).launch {
+            try {
+                val imageData = supabaseClient.storage
+                    .from("user-avatars")
+                    .downloadPublic(filename)
+
+                if (imageData != null) {
+                    val bitmap = BitmapFactory.decodeByteArray(imageData, 0, imageData.size)
+                    withContext(Dispatchers.Main) {
+                        binding.profileAvatar.setImageBitmap(bitmap)
+                    }
+                } else {
+                    // Handle case where image is not found
+                    // (e.g., display default image)
+                }
+            } catch (e: Exception) {
+                // Handle download error
+            }
+        }
     }
 
     private fun chaingeimage() {
@@ -147,12 +175,10 @@ class Profile : Fragment(R.layout.profile) {
     private fun uploadImageToStorage(byteArray: ByteArray) {
         CoroutineScope(Dispatchers.IO).launch {
             try {
-                Log.e("jops", supabaseClient.auth.currentUserOrNull().toString())
-                val storage = supabaseClient.storage
+                supabaseClient.storage
                     .from("user-avatars")
-                    .upload("image.png", byteArray)
+                    .upload("image${prefManager.id}.png", byteArray)
             } catch (e: Exception) {
-                Log.e("jops", e.toString())
             }
 
         }
