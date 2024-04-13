@@ -6,4 +6,12 @@
     <string name="switch_theme">Switch theme</string>
     <string name="change_your_image">Change your image</string>
     <string name="logout">Logout</string>
+    <string name="hello">Hello,</string>
+    <string name="are_you_ready_for_learning_today">Are you ready for learning today?</string>
+    <string name="top_users">Top users</string>
+    <string name="available_excersises">Available excersises</string>
+    <string name="guess_the_animal">Guess the animal</string>
+    <string name="word_practice">Word practice</string>
+    <string name="audition">Audition</string>
+    <string name="game">Game</string>
 </resources>

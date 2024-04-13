@@ -116,7 +116,7 @@ class SignUpPass : Fragment(R.layout.signup_pass_fragment) {
                             }
                             prefManager.isAuth = true
                             val request = NavDeepLinkRequest.Builder
-                                .fromUri("android-app://app.web.drjackycv/profile".toUri())
+                                .fromUri("android-app://app.web.drjackycv/main".toUri())
                                 .build()
                             findNavController().navigate(request)
                         } else {
