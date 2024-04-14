@@ -32,7 +32,7 @@
                     android:layout_gravity="center"
                     android:layout_marginEnd="24dp"
                     android:fontFamily="@font/fredoka_medium"
-                    android:gravity="center"
+                    android:gravity="start"
                     android:paddingRight="64dp"
                     android:text="@string/word_practice"
                     android:textColor="@color/white"
@@ -135,9 +135,23 @@
         android:layout_width="match_parent"
         android:orientation="vertical"
         android:layout_height="0dp">
+        <Button
+            android:id="@+id/check"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_button_correct_all"
+            android:fontFamily="@font/fredoka_medium"
+            android:text="@string/check"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:layout_marginHorizontal="24dp"
+            android:textSize="20sp" />
+
     <Button
         android:id="@+id/next"
         android:layout_width="match_parent"
+        android:visibility="gone"
         android:layout_height="56dp"
         android:layout_marginTop="10dp"
         android:background="@drawable/rounded_button_correct_all"

@@ -36,7 +36,7 @@
                 android:layout_gravity="center"
                 android:layout_marginEnd="24dp"
                 android:fontFamily="@font/fredoka_medium"
-                android:gravity="center"
+                android:gravity="start"
                 android:paddingRight="64dp"
                 android:text="@string/guess_the_animal"
                 android:textColor="@color/white"
@@ -70,6 +70,8 @@
         android:layout_height="56dp"
         android:layout_marginTop="8dp"
         android:layout_marginHorizontal="24dp"
+        android:gravity="center_vertical"
+        android:paddingStart="8dp"
         android:lines="1"
         android:backgroundTint="#080E1E0D"
         android:background="@drawable/rounded_button"/>
