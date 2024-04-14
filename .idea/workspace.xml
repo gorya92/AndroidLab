@@ -69,24 +69,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="168ec69c-20b0-4229-9edc-4c682ab3adaf" name="Changes" comment="Session-2">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/app/MVIModularizationTemplate.app.androidTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/app/MVIModularizationTemplate.app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/app/MVIModularizationTemplate.app.unitTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/core/designSystem/MVIModularizationTemplate.core.designSystem.unitTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/core/navigation/MVIModularizationTemplate.core.navigation.androidTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/core/navigation/MVIModularizationTemplate.core.navigation.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/core/navigation/MVIModularizationTemplate.core.navigation.unitTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/features/app/MVIModularizationTemplate.features.app.androidTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/features/splash/MVIModularizationTemplate.features.splash.unitTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/app/src/main/res/drawable/first.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/app/src/main/res/drawable/firstgame.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/app/src/main/res/drawable/fourth.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/app/src/main/res/drawable/second.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/app/src/main/res/drawable/second_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/app/src/main/res/drawable/third.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/app/src/main/res/drawable/third_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/app/src/main/res/layout/main_fragment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/app/src/main/res/second/_❄️ (1).png" afterPathEscaped="$PROJECT_DIR$/features/app/src/main/res/second/🐻_❄️ (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/common/exceptions/MVIModularizationTemplate.common.exceptions.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/features/onboarding/MVIModularizationTemplate.features.onboarding.main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.bin" afterDir="false" />
@@ -95,119 +79,36 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/MVIModularizationTemplate.app.androidTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/MVIModularizationTemplate.app.androidTest.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/app/MVIModularizationTemplate.app.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/MVIModularizationTemplate.app.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/common/exceptions/MVIModularizationTemplate.common.exceptions.androidTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/core/network/MVIModularizationTemplate.core.network.androidTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/common/exceptions/MVIModularizationTemplate.common.exceptions.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/common/exceptions/MVIModularizationTemplate.common.exceptions.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/common/exceptions/MVIModularizationTemplate.common.exceptions.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/core/network/MVIModularizationTemplate.core.network.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/common/exceptions/MVIModularizationTemplate.common.exceptions.unitTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/core/network/MVIModularizationTemplate.core.network.unitTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/core/network/MVIModularizationTemplate.core.network.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/core/navigation/MVIModularizationTemplate.core.navigation.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/features/app/MVIModularizationTemplate.features.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/features/main/MVIModularizationTemplate.features.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/features/app/MVIModularizationTemplate.features.app.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/core/designSystem/MVIModularizationTemplate.core.designSystem.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/features/app/MVIModularizationTemplate.features.app.unitTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/features/app/MVIModularizationTemplate.features.app.unitTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/features/main/MVIModularizationTemplate.features.main.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/features/main/MVIModularizationTemplate.features.main.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/features/main/MVIModularizationTemplate.features.main.unitTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/features/main/MVIModularizationTemplate.features.main.unitTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/features/onboarding/MVIModularizationTemplate.features.onboarding.androidTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/features/app/app.MVIModularizationTemplate.features.app.androidTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/features/onboarding/MVIModularizationTemplate.features.onboarding.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/core/designSystem/MVIModularizationTemplate.core.designSystem.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/features/onboarding/MVIModularizationTemplate.features.onboarding.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/features/onboarding/MVIModularizationTemplate.features.onboarding.unitTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/features/onboarding/MVIModularizationTemplate.features.onboarding.unitTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/features/splash/MVIModularizationTemplate.features.splash.androidTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/core/designSystem/MVIModularizationTemplate.core.designSystem.androidTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/navEditor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/navEditor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/MVIModularizationTemplate.app.unitTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/MVIModularizationTemplate.app.unitTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/common/exceptions/MVIModularizationTemplate.common.exceptions.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/core/network/MVIModularizationTemplate.core.network.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/core/designSystem/MVIModularizationTemplate.core.designSystem.androidTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/core/designSystem/MVIModularizationTemplate.core.designSystem.androidTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/core/designSystem/MVIModularizationTemplate.core.designSystem.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/core/designSystem/MVIModularizationTemplate.core.designSystem.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/core/designSystem/MVIModularizationTemplate.core.designSystem.unitTest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/core/navigation/MVIModularizationTemplate.core.navigation.androidTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/core/navigation/MVIModularizationTemplate.core.navigation.androidTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/core/navigation/MVIModularizationTemplate.core.navigation.unitTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/common/exceptions/MVIModularizationTemplate.common.exceptions.unitTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/core/network/MVIModularizationTemplate.core.network.androidTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/common/exceptions/MVIModularizationTemplate.common.exceptions.androidTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/features/app/MVIModularizationTemplate.features.app.unitTest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/features/app/app.MVIModularizationTemplate.features.app.androidTest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/features/main/MVIModularizationTemplate.features.main.androidTest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/features/main/MVIModularizationTemplate.features.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/features/app/MVIModularizationTemplate.features.app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/features/main/MVIModularizationTemplate.features.main.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/features/app/MVIModularizationTemplate.features.app.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/features/main/MVIModularizationTemplate.features.main.unitTest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/features/onboarding/MVIModularizationTemplate.features.onboarding.unitTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/features/onboarding/MVIModularizationTemplate.features.onboarding.androidTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/features/splash/MVIModularizationTemplate.features.splash.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/features/onboarding/MVIModularizationTemplate.features.onboarding.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/features/splash/MVIModularizationTemplate.features.splash.unitTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/features/splash/MVIModularizationTemplate.features.splash.androidTest.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/7.6/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/7.6/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/features/app/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/app/src/main/res/layout/profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/features/app/src/main/res/layout/profile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/app/src/main/res/values-ru/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/features/app/src/main/res/values-ru/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/features/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/main/src/main/res/navigation/main_navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/features/main/src/main/res/navigation/main_navigation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/15db563c48faf8687d138a225bad9327/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/57c1982c090c4b93aa3be530700755a4/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/689330cffad7c10f1ef4d59ac1ffd514/transformed/debug/app/web/drjackycv/features/onboarding/presentation/Login$validateLoginButton$1$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/.transforms/689330cffad7c10f1ef4d59ac1ffd514/transformed/debug/app/web/drjackycv/features/onboarding/presentation/Login$validateLoginButton$1$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/689330cffad7c10f1ef4d59ac1ffd514/transformed/debug/app/web/drjackycv/features/onboarding/presentation/Login.dex" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/.transforms/689330cffad7c10f1ef4d59ac1ffd514/transformed/debug/app/web/drjackycv/features/onboarding/presentation/Login.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/689330cffad7c10f1ef4d59ac1ffd514/transformed/debug/app/web/drjackycv/features/onboarding/presentation/SignUpPass$validateLoginButton$1$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/.transforms/689330cffad7c10f1ef4d59ac1ffd514/transformed/debug/app/web/drjackycv/features/onboarding/presentation/SignUpPass$validateLoginButton$1$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/93bc018f8fe0ddd74008320cae91edde/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/955b6b89587d1e16f397275389537c6d/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/BuildConfig.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/databinding/LanguageChoiceFragmentBinding.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/databinding/LoginFragmentBinding.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/databinding/OnboardingBinding.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/databinding/OnboardingPageItemBinding.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/databinding/OnboardingViewBinding.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/databinding/SignupFragmentBinding.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/databinding/SignupPassFragmentBinding.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/ChoiceLanguage$special$$inlined$viewBinding$default$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/ChoiceLanguage.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/Login$onViewCreated$$inlined$doAfterTextChanged$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/Login$onViewCreated$1$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/Login$special$$inlined$viewBinding$default$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/Login$special$$inlined$viewModels$default$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/Login$special$$inlined$viewModels$default$2.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/Login$special$$inlined$viewModels$default$3.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/Login$special$$inlined$viewModels$default$4.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/Login$special$$inlined$viewModels$default$5.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/Login$validateGoogleButton$1$1$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/Login$validateGoogleButton$1$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/Login$validateLoginButton$1$1$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/Login$validateLoginButton$1$1$2.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/Login$validateLoginButton$1$1$result$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/Login$validateLoginButton$1$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/Login.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/OnBoarding$special$$inlined$viewBinding$default$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/OnBoarding.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/OnBoardingPrefManager$Companion.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/OnBoardingPrefManager.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/SignUp$onViewCreated$$inlined$doAfterTextChanged$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/SignUp$saveState$$inlined$doAfterTextChanged$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/SignUp$saveState$$inlined$doAfterTextChanged$2.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/SignUp$saveState$$inlined$doAfterTextChanged$3.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/SignUp$special$$inlined$viewBinding$default$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/SignUp.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/SignUpPass$onViewCreated$1$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/SignUpPass$special$$inlined$viewBinding$default$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/SignUpPass$validateLoginButton$1$1$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/SignUpPass$validateLoginButton$1$1$2.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/SignUpPass$validateLoginButton$1$1$result$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/SignUpPass$validateLoginButton$1$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/SignUpPass.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/UtilKt.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/customView/OnBoardingView$Companion.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/customView/OnBoardingView$addSlideChangeListener$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/customView/OnBoardingView$numberOfPages$2.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/customView/OnBoardingView.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/entity/Login$onViewCreated$$inlined$doAfterTextChanged$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/entity/Login$special$$inlined$viewBinding$default$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/entity/Login.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/entity/OnBoardingPage.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/viewmodel/CharacterUiState$Error.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/viewmodel/CharacterUiState$Loading.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/viewmodel/CharacterUiState.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/viewmodel/OnBoardingViewModel$handleFailure$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/app/web/drjackycv/features/onboarding/presentation/viewmodel/OnBoardingViewModel.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/com/omni/onboardingscreen/core/FadeTransition$Companion.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/com/omni/onboardingscreen/core/FadeTransition.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/com/omni/onboardingscreen/core/PopTransition$onDisappear$lambda$1$$inlined$doOnEnd$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/com/omni/onboardingscreen/core/PopTransition.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/com/omni/onboardingscreen/core/TransformKt.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/com/omni/onboardingscreen/feature/onboarding/OnBoardingPagerAdapter$PagerViewHolder.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/debug/com/omni/onboardingscreen/feature/onboarding/OnBoardingPagerAdapter.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/b29b1f60b143dac733e55e85a6fba6e1/transformed/desugar_graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/app/src/main/java/app/web/drjackycv/features/app/presentation/Profile.kt" beforeDir="false" afterPath="$PROJECT_DIR$/features/app/src/main/java/app/web/drjackycv/features/app/presentation/Profile.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/689330cffad7c10f1ef4d59ac1ffd514/transformed/debug/app/web/drjackycv/features/onboarding/presentation/OnBoardingPrefManager.dex" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/.transforms/689330cffad7c10f1ef4d59ac1ffd514/transformed/debug/app/web/drjackycv/features/onboarding/presentation/OnBoardingPrefManager.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/onboarding/build/intermediates/compile_library_classes_jar/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/intermediates/compile_library_classes_jar/debug/classes.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/intermediates/incremental/debug/packageDebugResources/merged.dir/values-ru/values-ru.xml" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/intermediates/incremental/debug/packageDebugResources/merged.dir/values-ru/values-ru.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/intermediates/incremental/debug/packageDebugResources/merged.dir/values/values.xml" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/intermediates/incremental/debug/packageDebugResources/merged.dir/values/values.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/intermediates/incremental/debug/packageDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/intermediates/incremental/debug/packageDebugResources/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/intermediates/runtime_library_classes_dir/debug/app/web/drjackycv/features/onboarding/presentation/Login$validateLoginButton$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/intermediates/runtime_library_classes_dir/debug/app/web/drjackycv/features/onboarding/presentation/Login$validateLoginButton$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/intermediates/runtime_library_classes_dir/debug/app/web/drjackycv/features/onboarding/presentation/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/intermediates/runtime_library_classes_dir/debug/app/web/drjackycv/features/onboarding/presentation/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/intermediates/runtime_library_classes_dir/debug/app/web/drjackycv/features/onboarding/presentation/SignUpPass$validateLoginButton$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/intermediates/runtime_library_classes_dir/debug/app/web/drjackycv/features/onboarding/presentation/SignUpPass$validateLoginButton$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/onboarding/build/intermediates/runtime_library_classes_dir/debug/app/web/drjackycv/features/onboarding/presentation/OnBoardingPrefManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/intermediates/runtime_library_classes_dir/debug/app/web/drjackycv/features/onboarding/presentation/OnBoardingPrefManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/onboarding/build/intermediates/runtime_library_classes_jar/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/intermediates/runtime_library_classes_jar/debug/classes.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.s" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" afterDir="false" />
@@ -232,23 +133,13 @@
       <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.s" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.s" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/last-build.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/local-state/build-history.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/last-build.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/kaptGenerateStubsDebugKotlin/local-state/build-history.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/tmp/kotlin-classes/debug/app/web/drjackycv/features/onboarding/presentation/Login$validateLoginButton$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/tmp/kotlin-classes/debug/app/web/drjackycv/features/onboarding/presentation/Login$validateLoginButton$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/tmp/kotlin-classes/debug/app/web/drjackycv/features/onboarding/presentation/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/tmp/kotlin-classes/debug/app/web/drjackycv/features/onboarding/presentation/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/tmp/kotlin-classes/debug/app/web/drjackycv/features/onboarding/presentation/SignUpPass$validateLoginButton$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/tmp/kotlin-classes/debug/app/web/drjackycv/features/onboarding/presentation/SignUpPass$validateLoginButton$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/src/main/java/app/web/drjackycv/features/onboarding/presentation/Login.kt" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/src/main/java/app/web/drjackycv/features/onboarding/presentation/Login.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/src/main/java/app/web/drjackycv/features/onboarding/presentation/SignUpPass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/src/main/java/app/web/drjackycv/features/onboarding/presentation/SignUpPass.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/onboarding/build/tmp/kotlin-classes/debug/app/web/drjackycv/features/onboarding/presentation/OnBoardingPrefManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/tmp/kotlin-classes/debug/app/web/drjackycv/features/onboarding/presentation/OnBoardingPrefManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/onboarding/src/main/java/app/web/drjackycv/features/onboarding/presentation/OnBoardingPrefManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/src/main/java/app/web/drjackycv/features/onboarding/presentation/OnBoardingPrefManager.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -322,22 +213,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "Main",
-    "last_opened_file_path": "C:/Users/pospi/StudioProjects/MVIModularizationTemplate/features/onboarding/src/androidTest/java/app/web/drjackycv/splash",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.17",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "advanced.settings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Session-2&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/pospi/StudioProjects/MVIModularizationTemplate/features/onboarding/src/androidTest/java/app/web/drjackycv/splash&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\pospi\StudioProjects\MVIModularizationTemplate\features\onboarding\src\androidTest\java\app\web\drjackycv\splash" />
@@ -805,7 +696,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712995181233</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Session-2">
+      <option name="closed" value="true" />
+      <created>1713004268821</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1713004268821</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
