@@ -1,0 +1,13 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Define your shape -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="50dp" />
+            <solid android:color="#00B5AE" />
+            <size android:height="160dp" android:width="160dp"/>
+        </shape>
+    </item>
+
+    <!-- Add your bitmap image -->
+    <item android:drawable="@drawable/micro" />
+</layer-list>

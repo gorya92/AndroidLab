@@ -86,6 +86,16 @@
     </fragment>
 
     <fragment
+        android:id="@+id/gameThree"
+        android:name="app.web.drjackycv.features.app.presentation.GameThree"
+        tools:layout="@layout/game_three_fragment"
+        >
+
+        <deepLink app:uri="android-app://app.web.drjackycv/gamethree" />
+
+    </fragment>
+
+    <fragment
         android:id="@+id/gameOne"
         android:name="app.web.drjackycv.features.app.presentation.GameOne"
         tools:layout="@layout/profile"

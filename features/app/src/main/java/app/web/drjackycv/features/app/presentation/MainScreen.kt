@@ -1,12 +1,17 @@
 package app.web.drjackycv.features.app.presentation
 
 
+import android.content.Context
 import android.graphics.BitmapFactory
+import android.net.ConnectivityManager
+import android.net.NetworkCapabilities
+import android.os.Build
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.net.toUri
 import androidx.fragment.app.Fragment
@@ -15,6 +20,7 @@ import androidx.navigation.fragment.findNavController
 import app.web.drjackycv.core.designsystem.viewBinding
 import app.web.drjackycv.features.app.R
 import app.web.drjackycv.features.app.databinding.MainFragmentBinding
+import com.google.android.material.snackbar.Snackbar
 import io.github.jan.supabase.SupabaseClient
 import io.github.jan.supabase.createSupabaseClient
 import io.github.jan.supabase.gotrue.Auth
@@ -37,25 +43,44 @@ class MainScreen : Fragment(R.layout.main_fragment) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        prefManager = ProfilePrefManager(requireContext())
-        supabaseClient = createSupabaseClient(
-            supabaseUrl = "https://emursxnkqovvvuzernos.supabase.co",
-            supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVtdXJzeG5rcW92dnZ1emVybm9zIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTcxMjc0NjkyNiwiZXhwIjoyMDI4MzIyOTI2fQ.WrgXa6sEc_RIeM-T4duVjSTr5S5TqULkKiovHP2BWwo"
-        ) {
-            install(Postgrest)
-            install(Auth) {
-                flowType = FlowType.PKCE
-                scheme = "app"
-                host = "supabase.com"
-            }
-            install(Storage)
+        if (isNetworkAvailable(requireContext())) {
+            prefManager = ProfilePrefManager(requireContext())
+            supabaseClient = createSupabaseClient(
+                supabaseUrl = "https://emursxnkqovvvuzernos.supabase.co",
+                supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVtdXJzeG5rcW92dnZ1emVybm9zIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTcxMjc0NjkyNiwiZXhwIjoyMDI4MzIyOTI2fQ.WrgXa6sEc_RIeM-T4duVjSTr5S5TqULkKiovHP2BWwo"
+            ) {
+                install(Postgrest)
+                install(Auth) {
+                    flowType = FlowType.PKCE
+                    scheme = "app"
+                    host = "supabase.com"
+                }
+                install(Storage)
 
+            }
+            toProfile()
+            binding.profiletv.text = "${binding.profiletv.text} ${prefManager.email}"
+            downloadAndDisplayProfilePicture()
+            getAllUsersData()
+            toGame()
+            prefManager.isStreak = 0
+        } else {
+            Snackbar.make(
+                requireView(),
+                "Нет соединения с интернетом",
+                Snackbar.LENGTH_SHORT
+            ).show()
         }
-        toProfile()
-        binding.profiletv.text = "${binding.profiletv.text} ${prefManager.email}"
-        downloadAndDisplayProfilePicture()
-        getAllUsersData()
-        toGame()
+    }
+
+    fun isNetworkAvailable(context: Context): Boolean {
+        val connectivityManager =
+            context.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
+        val network = connectivityManager.activeNetwork
+        val networkCapabilities = connectivityManager.getNetworkCapabilities(network)
+        return networkCapabilities != null &&
+                (networkCapabilities.hasTransport(NetworkCapabilities.TRANSPORT_WIFI) ||
+                        networkCapabilities.hasTransport(NetworkCapabilities.TRANSPORT_CELLULAR))
     }
 
     private fun getAllUsersData() {
@@ -100,6 +125,12 @@ class MainScreen : Fragment(R.layout.main_fragment) {
         binding.secondGame.setOnClickListener {
             val request = NavDeepLinkRequest.Builder
                 .fromUri("android-app://app.web.drjackycv/gametwo".toUri())
+                .build()
+            findNavController().navigate(request)
+        }
+        binding.thirdGame.setOnClickListener {
+            val request = NavDeepLinkRequest.Builder
+                .fromUri("android-app://app.web.drjackycv/gamethree".toUri())
                 .build()
             findNavController().navigate(request)
         }

@@ -1,0 +1,14 @@
+<changelist name="Session-4" date="1713094241812" recycled="false">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Session-4/shelved.patch" />
+  <option name="DESCRIPTION" value="Session-4" />
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="features/app/src/main/res/drawable/micro.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Session-4/micro.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="features/app/src/main/res/drawable/rectangle.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Session-4/rectangle.png" />
+  </binary>
+</changelist>

@@ -45,6 +45,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+
         android:layout_weight="1.5"
         android:padding="24dp">
     </LinearLayout>
@@ -53,6 +54,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+
     android:paddingHorizontal="24dp"
     android:layout_weight="1"
     >

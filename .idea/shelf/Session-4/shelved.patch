@@ -1,0 +1,624 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AndroidLayouts\">\r\n    <shared>\r\n      <config />\r\n    </shared>\r\n    <layouts>\r\n      <layout url=\"file://$PROJECT_DIR$/features/app/src/main/res/layout/game_one_fragment.xml\">\r\n        <config>\r\n          <theme>@android:style/Theme.Material.Light</theme>\r\n        </config>\r\n      </layout>\r\n      <layout url=\"file://$PROJECT_DIR$/features/app/src/main/res/layout/game_two_fragment.xml\">\r\n        <config>\r\n          <theme>@android:style/Theme.Material.Light</theme>\r\n        </config>\r\n      </layout>\r\n      <layout url=\"file://$PROJECT_DIR$/features/app/src/main/res/layout/main_fragment.xml\">\r\n        <config>\r\n          <theme>@android:style/Theme.Material.Light</theme>\r\n        </config>\r\n      </layout>\r\n      <layout url=\"file://$PROJECT_DIR$/features/app/src/main/res/layout/profile.xml\">\r\n        <config>\r\n          <theme>@android:style/Theme.Material.Light</theme>\r\n        </config>\r\n      </layout>\r\n      <layout url=\"file://$PROJECT_DIR$/features/main/src/main/res/navigation/main_navigation.xml\">\r\n        <config>\r\n          <theme>@android:style/Theme.Material.Light</theme>\r\n        </config>\r\n      </layout>\r\n      <layout url=\"file://$PROJECT_DIR$/features/onboarding/src/main/res/layout/language_choice_fragment.xml\">\r\n        <config>\r\n          <theme>@android:style/Theme.Material.Light</theme>\r\n        </config>\r\n      </layout>\r\n      <layout url=\"file://$PROJECT_DIR$/features/onboarding/src/main/res/layout/login_fragment.xml\">\r\n        <config>\r\n          <night>night</night>\r\n          <theme>@android:style/Theme.Material.Light</theme>\r\n        </config>\r\n      </layout>\r\n      <layout url=\"file://$PROJECT_DIR$/features/onboarding/src/main/res/layout/onboarding.xml\">\r\n        <config>\r\n          <night>night</night>\r\n          <theme>@android:style/Theme.Material.Light</theme>\r\n        </config>\r\n      </layout>\r\n      <layout url=\"file://$PROJECT_DIR$/features/onboarding/src/main/res/layout/onboarding_page_item.xml\">\r\n        <config>\r\n          <theme>@android:style/Theme.Material.Light</theme>\r\n        </config>\r\n      </layout>\r\n      <layout url=\"file://$PROJECT_DIR$/features/onboarding/src/main/res/layout/onboarding_view.xml\">\r\n        <config>\r\n          <theme>@android:style/Theme.Material.Light</theme>\r\n        </config>\r\n      </layout>\r\n      <layout url=\"file://$PROJECT_DIR$/features/onboarding/src/main/res/layout/signup_fragment.xml\">\r\n        <config>\r\n          <theme>@android:style/Theme.Material.Light</theme>\r\n        </config>\r\n      </layout>\r\n      <layout url=\"file://$PROJECT_DIR$/features/onboarding/src/main/res/layout/signup_pass_fragment.xml\">\r\n        <config>\r\n          <theme>@android:style/Theme.Material.Light</theme>\r\n        </config>\r\n      </layout>\r\n      <layout url=\"file://$PROJECT_DIR$/features/splash/src/main/res/layout/splash.xml\">\r\n        <config>\r\n          <theme>@android:style/Theme.Material.Light</theme>\r\n        </config>\r\n      </layout>\r\n    </layouts>\r\n  </component>\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"NONE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"168ec69c-20b0-4229-9edc-4c682ab3adaf\" name=\"Changes\" comment=\"Session-2\">\r\n      <change afterPath=\"$PROJECT_DIR$/features/app/src/main/java/app/web/drjackycv/features/app/presentation/GameOne.kt\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/features/app/src/main/java/app/web/drjackycv/features/app/presentation/GameTwo.kt\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/features/app/src/main/java/app/web/drjackycv/features/app/presentation/GameTwoModel.kt\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/features/app/src/main/res/drawable/base.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/features/app/src/main/res/drawable/baseline_arrow_back_ios_24.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/features/app/src/main/res/drawable/loose.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/features/app/src/main/res/drawable/rounded_button_base.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/features/app/src/main/res/drawable/rounded_button_correct.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/features/app/src/main/res/drawable/rounded_button_correct_all.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/features/app/src/main/res/drawable/rounded_button_incorrect.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/features/app/src/main/res/drawable/win.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/features/app/src/main/res/layout/game_one_fragment.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/features/app/src/main/res/layout/game_two_fragment.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.bin\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.bin\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.lock\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.lock\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.bin\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.bin\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.lock\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.lock\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.gradle/7.6/fileHashes/resourceHashesCache.bin\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gradle/7.6/fileHashes/resourceHashesCache.bin\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/assetWizardSettings.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/assetWizardSettings.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/navEditor.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/navEditor.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/buildSrc/.gradle/7.6/executionHistory/executionHistory.lock\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/buildSrc/.gradle/7.6/executionHistory/executionHistory.lock\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/features/app/src/main/java/app/web/drjackycv/features/app/presentation/MainScreen.kt\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/features/app/src/main/java/app/web/drjackycv/features/app/presentation/MainScreen.kt\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/features/app/src/main/java/app/web/drjackycv/features/app/presentation/ProfilePrefManager.kt\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/features/app/src/main/java/app/web/drjackycv/features/app/presentation/ProfilePrefManager.kt\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/features/app/src/main/res/layout/main_fragment.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/features/app/src/main/res/layout/main_fragment.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/features/app/src/main/res/layout/profile.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/features/app/src/main/res/layout/profile.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/features/app/src/main/res/values-ru/strings.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/features/app/src/main/res/values-ru/strings.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/features/app/src/main/res/values/strings.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/features/app/src/main/res/values/strings.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/features/main/src/main/res/navigation/main_navigation.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/features/main/src/main/res/navigation/main_navigation.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ClangdSettings\">\r\n    <option name=\"formatViaClangd\" value=\"false\" />\r\n  </component>\r\n  <component name=\"ExecutionTargetManager\" SELECTED_TARGET=\"device_and_snapshot_combo_box_target[C:\\Users\\pospi\\.android\\avd\\Pixel_8_API_34.avd]\" />\r\n  <component name=\"ExternalProjectsData\">\r\n    <projectState path=\"$PROJECT_DIR$\">\r\n      <ProjectState />\r\n    </projectState>\r\n  </component>\r\n  <component name=\"ExternalProjectsManager\">\r\n    <system id=\"GRADLE\">\r\n      <state>\r\n        <projects_view>\r\n          <tree_state>\r\n            <expand />\r\n            <select />\r\n          </tree_state>\r\n        </projects_view>\r\n      </state>\r\n    </system>\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"valueResourceFile\" />\r\n        <option value=\"Kotlin Class\" />\r\n        <option value=\"Class\" />\r\n        <option value=\"layoutResourceFile\" />\r\n        <option value=\"Kotlin File\" />\r\n        <option value=\"resourceFile\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"Main\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;gorya92&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">\r\n    <option name=\"selectedUrlAndAccountId\">\r\n      <UrlAndAccount>\r\n        <option name=\"accountId\" value=\"64087e9a-9a23-45c1-8c21-1ad2d92eaf43\" />\r\n        <option name=\"url\" value=\"https://github.com/gorya92/AndroidLab.git\" />\r\n      </UrlAndAccount>\r\n    </option>\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 7\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2eromrNcKpXvk7IHvmFlgC0NHM6\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"RunOnceActivity.cidr.known.project.marker\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"cf.first.check.clang-format\": \"false\",\r\n    \"cidr.known.project.marker\": \"true\",\r\n    \"git-widget-placeholder\": \"Session-3\",\r\n    \"last_opened_file_path\": \"C:/Users/pospi/StudioProjects/AndroidLab/features/app/src/main/res/drawable\",\r\n    \"project.structure.last.edited\": \"Modules\",\r\n    \"project.structure.proportion\": \"0.17\",\r\n    \"project.structure.side.proportion\": \"0.2\",\r\n    \"settings.editor.selected.configurable\": \"advanced.settings\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\pospi\\StudioProjects\\AndroidLab\\features\\app\\src\\main\\res\\drawable\" />\r\n      <recent name=\"C:\\Users\\pospi\\StudioProjects\\MVIModularizationTemplate\\features\\onboarding\\src\\androidTest\\java\\app\\web\\drjackycv\\splash\" />\r\n      <recent name=\"C:\\Users\\pospi\\StudioProjects\\MVIModularizationTemplate\\core\\designSystem\\src\\main\\res\\font\" />\r\n      <recent name=\"C:\\Users\\pospi\\StudioProjects\\MVIModularizationTemplate\\features\" />\r\n      <recent name=\"C:\\Users\\pospi\\StudioProjects\\MVIModularizationTemplate\\features\\onboarding\\src\\main\\res\\values-ru\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\pospi\\StudioProjects\\AndroidLab\\features\\app\\src\\main\\res\\drawable\" />\r\n      <recent name=\"C:\\Users\\pospi\\StudioProjects\\AndroidLab\\features\\app\\src\\main\\res\\second\" />\r\n      <recent name=\"C:\\Users\\pospi\\StudioProjects\\MVIModularizationTemplate\\features\\language\\src\\main\\res\\drawable\" />\r\n    </key>\r\n    <key name=\"MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY\">\r\n      <recent name=\"app.web.drjackycv.features.onboarding.presentation\" />\r\n    </key>\r\n    <key name=\"CopyKotlinDeclarationDialog.RECENTS_KEY\">\r\n      <recent name=\"app.web.drjackycv.features.app.presentation\" />\r\n      <recent name=\"app.web.drjackycv.features.onboarding.presentation.entity\" />\r\n      <recent name=\"app.web.drjackycv.features.onboarding.presentation\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Android App.app\">\r\n    <configuration name=\"app\" type=\"AndroidRunConfigurationType\" factoryName=\"Android App\">\r\n      <module name=\"MVIModularizationTemplate.app.main\" />\r\n      <option name=\"DEPLOY\" value=\"true\" />\r\n      <option name=\"DEPLOY_APK_FROM_BUNDLE\" value=\"false\" />\r\n      <option name=\"DEPLOY_AS_INSTANT\" value=\"false\" />\r\n      <option name=\"ARTIFACT_NAME\" value=\"\" />\r\n      <option name=\"PM_INSTALL_OPTIONS\" value=\"\" />\r\n      <option name=\"ALL_USERS\" value=\"false\" />\r\n      <option name=\"ALWAYS_INSTALL_WITH_PM\" value=\"false\" />\r\n      <option name=\"CLEAR_APP_STORAGE\" value=\"false\" />\r\n      <option name=\"DYNAMIC_FEATURES_DISABLED_LIST\" value=\"\" />\r\n      <option name=\"ACTIVITY_EXTRA_FLAGS\" value=\"\" />\r\n      <option name=\"MODE\" value=\"default_activity\" />\r\n      <option name=\"CLEAR_LOGCAT\" value=\"false\" />\r\n      <option name=\"SHOW_LOGCAT_AUTOMATICALLY\" value=\"false\" />\r\n      <option name=\"INSPECTION_WITHOUT_ACTIVITY_RESTART\" value=\"false\" />\r\n      <option name=\"TARGET_SELECTION_MODE\" value=\"DEVICE_AND_SNAPSHOT_COMBO_BOX\" />\r\n      <option name=\"SELECTED_CLOUD_MATRIX_CONFIGURATION_ID\" value=\"-1\" />\r\n      <option name=\"SELECTED_CLOUD_MATRIX_PROJECT_ID\" value=\"\" />\r\n      <option name=\"DEBUGGER_TYPE\" value=\"Auto\" />\r\n      <Auto>\r\n        <option name=\"USE_JAVA_AWARE_DEBUGGER\" value=\"false\" />\r\n        <option name=\"SHOW_STATIC_VARS\" value=\"true\" />\r\n        <option name=\"WORKING_DIR\" value=\"\" />\r\n        <option name=\"TARGET_LOGGING_CHANNELS\" value=\"lldb process:gdb-remote packets\" />\r\n        <option name=\"SHOW_OPTIMIZED_WARNING\" value=\"true\" />\r\n        <option name=\"ATTACH_ON_WAIT_FOR_DEBUGGER\" value=\"false\" />\r\n        <option name=\"DEBUG_SANDBOX_SDK\" value=\"false\" />\r\n      </Auto>\r\n      <Hybrid>\r\n        <option name=\"USE_JAVA_AWARE_DEBUGGER\" value=\"false\" />\r\n        <option name=\"SHOW_STATIC_VARS\" value=\"true\" />\r\n        <option name=\"WORKING_DIR\" value=\"\" />\r\n        <option name=\"TARGET_LOGGING_CHANNELS\" value=\"lldb process:gdb-remote packets\" />\r\n        <option name=\"SHOW_OPTIMIZED_WARNING\" value=\"true\" />\r\n        <option name=\"ATTACH_ON_WAIT_FOR_DEBUGGER\" value=\"false\" />\r\n        <option name=\"DEBUG_SANDBOX_SDK\" value=\"false\" />\r\n      </Hybrid>\r\n      <Java>\r\n        <option name=\"ATTACH_ON_WAIT_FOR_DEBUGGER\" value=\"false\" />\r\n        <option name=\"DEBUG_SANDBOX_SDK\" value=\"false\" />\r\n      </Java>\r\n      <Native>\r\n        <option name=\"USE_JAVA_AWARE_DEBUGGER\" value=\"false\" />\r\n        <option name=\"SHOW_STATIC_VARS\" value=\"true\" />\r\n        <option name=\"WORKING_DIR\" value=\"\" />\r\n        <option name=\"TARGET_LOGGING_CHANNELS\" value=\"lldb process:gdb-remote packets\" />\r\n        <option name=\"SHOW_OPTIMIZED_WARNING\" value=\"true\" />\r\n        <option name=\"ATTACH_ON_WAIT_FOR_DEBUGGER\" value=\"false\" />\r\n        <option name=\"DEBUG_SANDBOX_SDK\" value=\"false\" />\r\n      </Native>\r\n      <Profilers>\r\n        <option name=\"ADVANCED_PROFILING_ENABLED\" value=\"false\" />\r\n        <option name=\"STARTUP_PROFILING_ENABLED\" value=\"false\" />\r\n        <option name=\"STARTUP_CPU_PROFILING_ENABLED\" value=\"false\" />\r\n        <option name=\"STARTUP_CPU_PROFILING_CONFIGURATION_NAME\" value=\"Java/Kotlin Method Sample (legacy)\" />\r\n        <option name=\"STARTUP_NATIVE_MEMORY_PROFILING_ENABLED\" value=\"false\" />\r\n        <option name=\"NATIVE_MEMORY_SAMPLE_RATE_BYTES\" value=\"2048\" />\r\n      </Profilers>\r\n      <option name=\"DEEP_LINK\" value=\"\" />\r\n      <option name=\"ACTIVITY_CLASS\" value=\"\" />\r\n      <option name=\"SEARCH_ACTIVITY_IN_GLOBAL_SCOPE\" value=\"false\" />\r\n      <option name=\"SKIP_ACTIVITY_VALIDATION\" value=\"false\" />\r\n      <method v=\"2\">\r\n        <option name=\"Android.Gradle.BeforeRunTask\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"MyFragmentTest (1)\" type=\"AndroidTestRunConfigurationType\" factoryName=\"Android Instrumented Tests\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"MVIModularizationTemplate.features.onboarding.androidTest\" />\r\n      <option name=\"TESTING_TYPE\" value=\"2\" />\r\n      <option name=\"METHOD_NAME\" value=\"\" />\r\n      <option name=\"CLASS_NAME\" value=\"app.web.drjackycv.splash.presentation.MyFragmentTest\" />\r\n      <option name=\"PACKAGE_NAME\" value=\"\" />\r\n      <option name=\"TEST_NAME_REGEX\" value=\"\" />\r\n      <option name=\"INSTRUMENTATION_RUNNER_CLASS\" value=\"\" />\r\n      <option name=\"EXTRA_OPTIONS\" value=\"\" />\r\n      <option name=\"RETENTION_ENABLED\" value=\"No\" />\r\n      <option name=\"RETENTION_MAX_SNAPSHOTS\" value=\"2\" />\r\n      <option name=\"RETENTION_COMPRESS_SNAPSHOTS\" value=\"false\" />\r\n      <option name=\"CLEAR_LOGCAT\" value=\"false\" />\r\n      <option name=\"SHOW_LOGCAT_AUTOMATICALLY\" value=\"false\" />\r\n      <option name=\"INSPECTION_WITHOUT_ACTIVITY_RESTART\" value=\"false\" />\r\n      <option name=\"TARGET_SELECTION_MODE\" value=\"DEVICE_AND_SNAPSHOT_COMBO_BOX\" />\r\n      <option name=\"SELECTED_CLOUD_MATRIX_CONFIGURATION_ID\" value=\"-1\" />\r\n      <option name=\"SELECTED_CLOUD_MATRIX_PROJECT_ID\" value=\"\" />\r\n      <option name=\"DEBUGGER_TYPE\" value=\"Auto\" />\r\n      <Auto>\r\n        <option name=\"USE_JAVA_AWARE_DEBUGGER\" value=\"false\" />\r\n        <option name=\"SHOW_STATIC_VARS\" value=\"true\" />\r\n        <option name=\"WORKING_DIR\" value=\"\" />\r\n        <option name=\"TARGET_LOGGING_CHANNELS\" value=\"lldb process:gdb-remote packets\" />\r\n        <option name=\"SHOW_OPTIMIZED_WARNING\" value=\"true\" />\r\n        <option name=\"ATTACH_ON_WAIT_FOR_DEBUGGER\" value=\"false\" />\r\n        <option name=\"DEBUG_SANDBOX_SDK\" value=\"false\" />\r\n      </Auto>\r\n      <Hybrid>\r\n        <option name=\"USE_JAVA_AWARE_DEBUGGER\" value=\"false\" />\r\n        <option name=\"SHOW_STATIC_VARS\" value=\"true\" />\r\n        <option name=\"WORKING_DIR\" value=\"\" />\r\n        <option name=\"TARGET_LOGGING_CHANNELS\" value=\"lldb process:gdb-remote packets\" />\r\n        <option name=\"SHOW_OPTIMIZED_WARNING\" value=\"true\" />\r\n        <option name=\"ATTACH_ON_WAIT_FOR_DEBUGGER\" value=\"false\" />\r\n        <option name=\"DEBUG_SANDBOX_SDK\" value=\"false\" />\r\n      </Hybrid>\r\n      <Java>\r\n        <option name=\"ATTACH_ON_WAIT_FOR_DEBUGGER\" value=\"false\" />\r\n        <option name=\"DEBUG_SANDBOX_SDK\" value=\"false\" />\r\n      </Java>\r\n      <Native>\r\n        <option name=\"USE_JAVA_AWARE_DEBUGGER\" value=\"false\" />\r\n        <option name=\"SHOW_STATIC_VARS\" value=\"true\" />\r\n        <option name=\"WORKING_DIR\" value=\"\" />\r\n        <option name=\"TARGET_LOGGING_CHANNELS\" value=\"lldb process:gdb-remote packets\" />\r\n        <option name=\"SHOW_OPTIMIZED_WARNING\" value=\"true\" />\r\n        <option name=\"ATTACH_ON_WAIT_FOR_DEBUGGER\" value=\"false\" />\r\n        <option name=\"DEBUG_SANDBOX_SDK\" value=\"false\" />\r\n      </Native>\r\n      <Profilers>\r\n        <option name=\"ADVANCED_PROFILING_ENABLED\" value=\"false\" />\r\n        <option name=\"STARTUP_PROFILING_ENABLED\" value=\"false\" />\r\n        <option name=\"STARTUP_CPU_PROFILING_ENABLED\" value=\"false\" />\r\n        <option name=\"STARTUP_CPU_PROFILING_CONFIGURATION_NAME\" value=\"Java/Kotlin Method Sample (legacy)\" />\r\n        <option name=\"STARTUP_NATIVE_MEMORY_PROFILING_ENABLED\" value=\"false\" />\r\n        <option name=\"NATIVE_MEMORY_SAMPLE_RATE_BYTES\" value=\"2048\" />\r\n      </Profilers>\r\n      <method v=\"2\">\r\n        <option name=\"Android.Gradle.BeforeRunTask\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"MyFragmentTest\" type=\"AndroidTestRunConfigurationType\" factoryName=\"Android Instrumented Tests\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"MVIModularizationTemplate.features.main.androidTest\" />\r\n      <option name=\"TESTING_TYPE\" value=\"2\" />\r\n      <option name=\"METHOD_NAME\" value=\"\" />\r\n      <option name=\"CLASS_NAME\" value=\"app.web.drjackycv.main.presentation.MyFragmentTest\" />\r\n      <option name=\"PACKAGE_NAME\" value=\"\" />\r\n      <option name=\"TEST_NAME_REGEX\" value=\"\" />\r\n      <option name=\"INSTRUMENTATION_RUNNER_CLASS\" value=\"\" />\r\n      <option name=\"EXTRA_OPTIONS\" value=\"\" />\r\n      <option name=\"RETENTION_ENABLED\" value=\"No\" />\r\n      <option name=\"RETENTION_MAX_SNAPSHOTS\" value=\"2\" />\r\n      <option name=\"RETENTION_COMPRESS_SNAPSHOTS\" value=\"false\" />\r\n      <option name=\"CLEAR_LOGCAT\" value=\"false\" />\r\n      <option name=\"SHOW_LOGCAT_AUTOMATICALLY\" value=\"false\" />\r\n      <option name=\"INSPECTION_WITHOUT_ACTIVITY_RESTART\" value=\"false\" />\r\n      <option name=\"TARGET_SELECTION_MODE\" value=\"DEVICE_AND_SNAPSHOT_COMBO_BOX\" />\r\n      <option name=\"SELECTED_CLOUD_MATRIX_CONFIGURATION_ID\" value=\"-1\" />\r\n      <option name=\"SELECTED_CLOUD_MATRIX_PROJECT_ID\" value=\"\" />\r\n      <option name=\"DEBUGGER_TYPE\" value=\"Auto\" />\r\n      <Auto>\r\n        <option name=\"USE_JAVA_AWARE_DEBUGGER\" value=\"false\" />\r\n        <option name=\"SHOW_STATIC_VARS\" value=\"true\" />\r\n        <option name=\"WORKING_DIR\" value=\"\" />\r\n        <option name=\"TARGET_LOGGING_CHANNELS\" value=\"lldb process:gdb-remote packets\" />\r\n        <option name=\"SHOW_OPTIMIZED_WARNING\" value=\"true\" />\r\n        <option name=\"ATTACH_ON_WAIT_FOR_DEBUGGER\" value=\"false\" />\r\n        <option name=\"DEBUG_SANDBOX_SDK\" value=\"false\" />\r\n      </Auto>\r\n      <Hybrid>\r\n        <option name=\"USE_JAVA_AWARE_DEBUGGER\" value=\"false\" />\r\n        <option name=\"SHOW_STATIC_VARS\" value=\"true\" />\r\n        <option name=\"WORKING_DIR\" value=\"\" />\r\n        <option name=\"TARGET_LOGGING_CHANNELS\" value=\"lldb process:gdb-remote packets\" />\r\n        <option name=\"SHOW_OPTIMIZED_WARNING\" value=\"true\" />\r\n        <option name=\"ATTACH_ON_WAIT_FOR_DEBUGGER\" value=\"false\" />\r\n        <option name=\"DEBUG_SANDBOX_SDK\" value=\"false\" />\r\n      </Hybrid>\r\n      <Java>\r\n        <option name=\"ATTACH_ON_WAIT_FOR_DEBUGGER\" value=\"false\" />\r\n        <option name=\"DEBUG_SANDBOX_SDK\" value=\"false\" />\r\n      </Java>\r\n      <Native>\r\n        <option name=\"USE_JAVA_AWARE_DEBUGGER\" value=\"false\" />\r\n        <option name=\"SHOW_STATIC_VARS\" value=\"true\" />\r\n        <option name=\"WORKING_DIR\" value=\"\" />\r\n        <option name=\"TARGET_LOGGING_CHANNELS\" value=\"lldb process:gdb-remote packets\" />\r\n        <option name=\"SHOW_OPTIMIZED_WARNING\" value=\"true\" />\r\n        <option name=\"ATTACH_ON_WAIT_FOR_DEBUGGER\" value=\"false\" />\r\n        <option name=\"DEBUG_SANDBOX_SDK\" value=\"false\" />\r\n      </Native>\r\n      <Profilers>\r\n        <option name=\"ADVANCED_PROFILING_ENABLED\" value=\"false\" />\r\n        <option name=\"STARTUP_PROFILING_ENABLED\" value=\"false\" />\r\n        <option name=\"STARTUP_CPU_PROFILING_ENABLED\" value=\"false\" />\r\n        <option name=\"STARTUP_CPU_PROFILING_CONFIGURATION_NAME\" value=\"Java/Kotlin Method Sample (legacy)\" />\r\n        <option name=\"STARTUP_NATIVE_MEMORY_PROFILING_ENABLED\" value=\"false\" />\r\n        <option name=\"NATIVE_MEMORY_SAMPLE_RATE_BYTES\" value=\"2048\" />\r\n      </Profilers>\r\n      <method v=\"2\">\r\n        <option name=\"Android.Gradle.BeforeRunTask\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"mainTest()\" type=\"AndroidTestRunConfigurationType\" factoryName=\"Android Instrumented Tests\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"MVIModularizationTemplate.features.main.androidTest\" />\r\n      <option name=\"TESTING_TYPE\" value=\"3\" />\r\n      <option name=\"METHOD_NAME\" value=\"mainTest\" />\r\n      <option name=\"CLASS_NAME\" value=\"app.web.drjackycv.main.presentation.MainTest\" />\r\n      <option name=\"PACKAGE_NAME\" value=\"\" />\r\n      <option name=\"TEST_NAME_REGEX\" value=\"\" />\r\n      <option name=\"INSTRUMENTATION_RUNNER_CLASS\" value=\"\" />\r\n      <option name=\"EXTRA_OPTIONS\" value=\"\" />\r\n      <option name=\"RETENTION_ENABLED\" value=\"No\" />\r\n      <option name=\"RETENTION_MAX_SNAPSHOTS\" value=\"2\" />\r\n      <option name=\"RETENTION_COMPRESS_SNAPSHOTS\" value=\"false\" />\r\n      <option name=\"CLEAR_LOGCAT\" value=\"false\" />\r\n      <option name=\"SHOW_LOGCAT_AUTOMATICALLY\" value=\"false\" />\r\n      <option name=\"INSPECTION_WITHOUT_ACTIVITY_RESTART\" value=\"false\" />\r\n      <option name=\"TARGET_SELECTION_MODE\" value=\"DEVICE_AND_SNAPSHOT_COMBO_BOX\" />\r\n      <option name=\"SELECTED_CLOUD_MATRIX_CONFIGURATION_ID\" value=\"-1\" />\r\n      <option name=\"SELECTED_CLOUD_MATRIX_PROJECT_ID\" value=\"\" />\r\n      <option name=\"DEBUGGER_TYPE\" value=\"Auto\" />\r\n      <Auto>\r\n        <option name=\"USE_JAVA_AWARE_DEBUGGER\" value=\"false\" />\r\n        <option name=\"SHOW_STATIC_VARS\" value=\"true\" />\r\n        <option name=\"WORKING_DIR\" value=\"\" />\r\n        <option name=\"TARGET_LOGGING_CHANNELS\" value=\"lldb process:gdb-remote packets\" />\r\n        <option name=\"SHOW_OPTIMIZED_WARNING\" value=\"true\" />\r\n        <option name=\"ATTACH_ON_WAIT_FOR_DEBUGGER\" value=\"false\" />\r\n        <option name=\"DEBUG_SANDBOX_SDK\" value=\"false\" />\r\n      </Auto>\r\n      <Hybrid>\r\n        <option name=\"USE_JAVA_AWARE_DEBUGGER\" value=\"false\" />\r\n        <option name=\"SHOW_STATIC_VARS\" value=\"true\" />\r\n        <option name=\"WORKING_DIR\" value=\"\" />\r\n        <option name=\"TARGET_LOGGING_CHANNELS\" value=\"lldb process:gdb-remote packets\" />\r\n        <option name=\"SHOW_OPTIMIZED_WARNING\" value=\"true\" />\r\n        <option name=\"ATTACH_ON_WAIT_FOR_DEBUGGER\" value=\"false\" />\r\n        <option name=\"DEBUG_SANDBOX_SDK\" value=\"false\" />\r\n      </Hybrid>\r\n      <Java>\r\n        <option name=\"ATTACH_ON_WAIT_FOR_DEBUGGER\" value=\"false\" />\r\n        <option name=\"DEBUG_SANDBOX_SDK\" value=\"false\" />\r\n      </Java>\r\n      <Native>\r\n        <option name=\"USE_JAVA_AWARE_DEBUGGER\" value=\"false\" />\r\n        <option name=\"SHOW_STATIC_VARS\" value=\"true\" />\r\n        <option name=\"WORKING_DIR\" value=\"\" />\r\n        <option name=\"TARGET_LOGGING_CHANNELS\" value=\"lldb process:gdb-remote packets\" />\r\n        <option name=\"SHOW_OPTIMIZED_WARNING\" value=\"true\" />\r\n        <option name=\"ATTACH_ON_WAIT_FOR_DEBUGGER\" value=\"false\" />\r\n        <option name=\"DEBUG_SANDBOX_SDK\" value=\"false\" />\r\n      </Native>\r\n      <Profilers>\r\n        <option name=\"ADVANCED_PROFILING_ENABLED\" value=\"false\" />\r\n        <option name=\"STARTUP_PROFILING_ENABLED\" value=\"false\" />\r\n        <option name=\"STARTUP_CPU_PROFILING_ENABLED\" value=\"false\" />\r\n        <option name=\"STARTUP_CPU_PROFILING_CONFIGURATION_NAME\" value=\"Java/Kotlin Method Sample (legacy)\" />\r\n        <option name=\"STARTUP_NATIVE_MEMORY_PROFILING_ENABLED\" value=\"false\" />\r\n        <option name=\"NATIVE_MEMORY_SAMPLE_RATE_BYTES\" value=\"2048\" />\r\n      </Profilers>\r\n      <method v=\"2\">\r\n        <option name=\"Android.Gradle.BeforeRunTask\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"testFragment() (1)\" type=\"AndroidTestRunConfigurationType\" factoryName=\"Android Instrumented Tests\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"MVIModularizationTemplate.features.onboarding.androidTest\" />\r\n      <option name=\"TESTING_TYPE\" value=\"3\" />\r\n      <option name=\"METHOD_NAME\" value=\"testFragment\" />\r\n      <option name=\"CLASS_NAME\" value=\"app.web.drjackycv.splash.presentation.MyFragmentTest\" />\r\n      <option name=\"PACKAGE_NAME\" value=\"\" />\r\n      <option name=\"TEST_NAME_REGEX\" value=\"\" />\r\n      <option name=\"INSTRUMENTATION_RUNNER_CLASS\" value=\"\" />\r\n      <option name=\"EXTRA_OPTIONS\" value=\"\" />\r\n      <option name=\"RETENTION_ENABLED\" value=\"No\" />\r\n      <option name=\"RETENTION_MAX_SNAPSHOTS\" value=\"2\" />\r\n      <option name=\"RETENTION_COMPRESS_SNAPSHOTS\" value=\"false\" />\r\n      <option name=\"CLEAR_LOGCAT\" value=\"false\" />\r\n      <option name=\"SHOW_LOGCAT_AUTOMATICALLY\" value=\"false\" />\r\n      <option name=\"INSPECTION_WITHOUT_ACTIVITY_RESTART\" value=\"false\" />\r\n      <option name=\"TARGET_SELECTION_MODE\" value=\"DEVICE_AND_SNAPSHOT_COMBO_BOX\" />\r\n      <option name=\"SELECTED_CLOUD_MATRIX_CONFIGURATION_ID\" value=\"-1\" />\r\n      <option name=\"SELECTED_CLOUD_MATRIX_PROJECT_ID\" value=\"\" />\r\n      <option name=\"DEBUGGER_TYPE\" value=\"Auto\" />\r\n      <Auto>\r\n        <option name=\"USE_JAVA_AWARE_DEBUGGER\" value=\"false\" />\r\n        <option name=\"SHOW_STATIC_VARS\" value=\"true\" />\r\n        <option name=\"WORKING_DIR\" value=\"\" />\r\n        <option name=\"TARGET_LOGGING_CHANNELS\" value=\"lldb process:gdb-remote packets\" />\r\n        <option name=\"SHOW_OPTIMIZED_WARNING\" value=\"true\" />\r\n        <option name=\"ATTACH_ON_WAIT_FOR_DEBUGGER\" value=\"false\" />\r\n        <option name=\"DEBUG_SANDBOX_SDK\" value=\"false\" />\r\n      </Auto>\r\n      <Hybrid>\r\n        <option name=\"USE_JAVA_AWARE_DEBUGGER\" value=\"false\" />\r\n        <option name=\"SHOW_STATIC_VARS\" value=\"true\" />\r\n        <option name=\"WORKING_DIR\" value=\"\" />\r\n        <option name=\"TARGET_LOGGING_CHANNELS\" value=\"lldb process:gdb-remote packets\" />\r\n        <option name=\"SHOW_OPTIMIZED_WARNING\" value=\"true\" />\r\n        <option name=\"ATTACH_ON_WAIT_FOR_DEBUGGER\" value=\"false\" />\r\n        <option name=\"DEBUG_SANDBOX_SDK\" value=\"false\" />\r\n      </Hybrid>\r\n      <Java>\r\n        <option name=\"ATTACH_ON_WAIT_FOR_DEBUGGER\" value=\"false\" />\r\n        <option name=\"DEBUG_SANDBOX_SDK\" value=\"false\" />\r\n      </Java>\r\n      <Native>\r\n        <option name=\"USE_JAVA_AWARE_DEBUGGER\" value=\"false\" />\r\n        <option name=\"SHOW_STATIC_VARS\" value=\"true\" />\r\n        <option name=\"WORKING_DIR\" value=\"\" />\r\n        <option name=\"TARGET_LOGGING_CHANNELS\" value=\"lldb process:gdb-remote packets\" />\r\n        <option name=\"SHOW_OPTIMIZED_WARNING\" value=\"true\" />\r\n        <option name=\"ATTACH_ON_WAIT_FOR_DEBUGGER\" value=\"false\" />\r\n        <option name=\"DEBUG_SANDBOX_SDK\" value=\"false\" />\r\n      </Native>\r\n      <Profilers>\r\n        <option name=\"ADVANCED_PROFILING_ENABLED\" value=\"false\" />\r\n        <option name=\"STARTUP_PROFILING_ENABLED\" value=\"false\" />\r\n        <option name=\"STARTUP_CPU_PROFILING_ENABLED\" value=\"false\" />\r\n        <option name=\"STARTUP_CPU_PROFILING_CONFIGURATION_NAME\" value=\"Java/Kotlin Method Sample (legacy)\" />\r\n        <option name=\"STARTUP_NATIVE_MEMORY_PROFILING_ENABLED\" value=\"false\" />\r\n        <option name=\"NATIVE_MEMORY_SAMPLE_RATE_BYTES\" value=\"2048\" />\r\n      </Profilers>\r\n      <method v=\"2\">\r\n        <option name=\"Android.Gradle.BeforeRunTask\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"testFragment()\" type=\"AndroidTestRunConfigurationType\" factoryName=\"Android Instrumented Tests\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"MVIModularizationTemplate.features.main.androidTest\" />\r\n      <option name=\"TESTING_TYPE\" value=\"3\" />\r\n      <option name=\"METHOD_NAME\" value=\"testFragment\" />\r\n      <option name=\"CLASS_NAME\" value=\"app.web.drjackycv.main.presentation.MyFragmentTest\" />\r\n      <option name=\"PACKAGE_NAME\" value=\"\" />\r\n      <option name=\"TEST_NAME_REGEX\" value=\"\" />\r\n      <option name=\"INSTRUMENTATION_RUNNER_CLASS\" value=\"\" />\r\n      <option name=\"EXTRA_OPTIONS\" value=\"\" />\r\n      <option name=\"RETENTION_ENABLED\" value=\"No\" />\r\n      <option name=\"RETENTION_MAX_SNAPSHOTS\" value=\"2\" />\r\n      <option name=\"RETENTION_COMPRESS_SNAPSHOTS\" value=\"false\" />\r\n      <option name=\"CLEAR_LOGCAT\" value=\"false\" />\r\n      <option name=\"SHOW_LOGCAT_AUTOMATICALLY\" value=\"false\" />\r\n      <option name=\"INSPECTION_WITHOUT_ACTIVITY_RESTART\" value=\"false\" />\r\n      <option name=\"TARGET_SELECTION_MODE\" value=\"DEVICE_AND_SNAPSHOT_COMBO_BOX\" />\r\n      <option name=\"SELECTED_CLOUD_MATRIX_CONFIGURATION_ID\" value=\"-1\" />\r\n      <option name=\"SELECTED_CLOUD_MATRIX_PROJECT_ID\" value=\"\" />\r\n      <option name=\"DEBUGGER_TYPE\" value=\"Auto\" />\r\n      <Auto>\r\n        <option name=\"USE_JAVA_AWARE_DEBUGGER\" value=\"false\" />\r\n        <option name=\"SHOW_STATIC_VARS\" value=\"true\" />\r\n        <option name=\"WORKING_DIR\" value=\"\" />\r\n        <option name=\"TARGET_LOGGING_CHANNELS\" value=\"lldb process:gdb-remote packets\" />\r\n        <option name=\"SHOW_OPTIMIZED_WARNING\" value=\"true\" />\r\n        <option name=\"ATTACH_ON_WAIT_FOR_DEBUGGER\" value=\"false\" />\r\n        <option name=\"DEBUG_SANDBOX_SDK\" value=\"false\" />\r\n      </Auto>\r\n      <Hybrid>\r\n        <option name=\"USE_JAVA_AWARE_DEBUGGER\" value=\"false\" />\r\n        <option name=\"SHOW_STATIC_VARS\" value=\"true\" />\r\n        <option name=\"WORKING_DIR\" value=\"\" />\r\n        <option name=\"TARGET_LOGGING_CHANNELS\" value=\"lldb process:gdb-remote packets\" />\r\n        <option name=\"SHOW_OPTIMIZED_WARNING\" value=\"true\" />\r\n        <option name=\"ATTACH_ON_WAIT_FOR_DEBUGGER\" value=\"false\" />\r\n        <option name=\"DEBUG_SANDBOX_SDK\" value=\"false\" />\r\n      </Hybrid>\r\n      <Java>\r\n        <option name=\"ATTACH_ON_WAIT_FOR_DEBUGGER\" value=\"false\" />\r\n        <option name=\"DEBUG_SANDBOX_SDK\" value=\"false\" />\r\n      </Java>\r\n      <Native>\r\n        <option name=\"USE_JAVA_AWARE_DEBUGGER\" value=\"false\" />\r\n        <option name=\"SHOW_STATIC_VARS\" value=\"true\" />\r\n        <option name=\"WORKING_DIR\" value=\"\" />\r\n        <option name=\"TARGET_LOGGING_CHANNELS\" value=\"lldb process:gdb-remote packets\" />\r\n        <option name=\"SHOW_OPTIMIZED_WARNING\" value=\"true\" />\r\n        <option name=\"ATTACH_ON_WAIT_FOR_DEBUGGER\" value=\"false\" />\r\n        <option name=\"DEBUG_SANDBOX_SDK\" value=\"false\" />\r\n      </Native>\r\n      <Profilers>\r\n        <option name=\"ADVANCED_PROFILING_ENABLED\" value=\"false\" />\r\n        <option name=\"STARTUP_PROFILING_ENABLED\" value=\"false\" />\r\n        <option name=\"STARTUP_CPU_PROFILING_ENABLED\" value=\"false\" />\r\n        <option name=\"STARTUP_CPU_PROFILING_CONFIGURATION_NAME\" value=\"Java/Kotlin Method Sample (legacy)\" />\r\n        <option name=\"STARTUP_NATIVE_MEMORY_PROFILING_ENABLED\" value=\"false\" />\r\n        <option name=\"NATIVE_MEMORY_SAMPLE_RATE_BYTES\" value=\"2048\" />\r\n      </Profilers>\r\n      <method v=\"2\">\r\n        <option name=\"Android.Gradle.BeforeRunTask\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Android Instrumented Tests.testFragment() (1)\" />\r\n        <item itemvalue=\"Android Instrumented Tests.testFragment()\" />\r\n        <item itemvalue=\"Android Instrumented Tests.MyFragmentTest (1)\" />\r\n        <item itemvalue=\"Android Instrumented Tests.MyFragmentTest\" />\r\n        <item itemvalue=\"Android Instrumented Tests.mainTest()\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"168ec69c-20b0-4229-9edc-4c682ab3adaf\" name=\"Changes\" comment=\"\" />\r\n      <created>1712672220504</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1712672220504</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"initial\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1712916673628</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1712916673628</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"red\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1712916885152</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1712916885152</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"RED\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1712918211203</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1712918211203</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"GREEN\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1712918259330</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1712918259330</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"REFACTOR\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1712918354283</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1712918354283</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Session-2\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1712995181233</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1712995181233</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"Session-2\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1713004268821</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1713004268821</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"Session-2\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1713082447256</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1713082447257</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"9\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <option name=\"CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT\" value=\"false\" />\r\n    <option name=\"CHECK_NEW_TODO\" value=\"false\" />\r\n    <MESSAGE value=\"initial\" />\r\n    <MESSAGE value=\"red\" />\r\n    <MESSAGE value=\"RED\" />\r\n    <MESSAGE value=\"GREEN\" />\r\n    <MESSAGE value=\"REFACTOR\" />\r\n    <MESSAGE value=\"Session-2\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Session-2\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 11dbac6e5f563d55a1c10063d7e14f7687e673f6)
++++ b/.idea/workspace.xml	(date 1713094238155)
+@@ -10,6 +10,11 @@
+           <theme>@android:style/Theme.Material.Light</theme>
+         </config>
+       </layout>
++      <layout url="file://$PROJECT_DIR$/features/app/src/main/res/layout/game_three_fragment.xml">
++        <config>
++          <theme>@android:style/Theme.Material.Light</theme>
++        </config>
++      </layout>
+       <layout url="file://$PROJECT_DIR$/features/app/src/main/res/layout/game_two_fragment.xml">
+         <config>
+           <theme>@android:style/Theme.Material.Light</theme>
+@@ -78,38 +83,16 @@
+     <option name="autoReloadType" value="NONE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="168ec69c-20b0-4229-9edc-4c682ab3adaf" name="Changes" comment="Session-2">
+-      <change afterPath="$PROJECT_DIR$/features/app/src/main/java/app/web/drjackycv/features/app/presentation/GameOne.kt" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/features/app/src/main/java/app/web/drjackycv/features/app/presentation/GameTwo.kt" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/features/app/src/main/java/app/web/drjackycv/features/app/presentation/GameTwoModel.kt" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/features/app/src/main/res/drawable/base.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/features/app/src/main/res/drawable/baseline_arrow_back_ios_24.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/features/app/src/main/res/drawable/loose.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/features/app/src/main/res/drawable/rounded_button_base.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/features/app/src/main/res/drawable/rounded_button_correct.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/features/app/src/main/res/drawable/rounded_button_correct_all.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/features/app/src/main/res/drawable/rounded_button_incorrect.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/features/app/src/main/res/drawable/win.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/features/app/src/main/res/layout/game_one_fragment.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/features/app/src/main/res/layout/game_two_fragment.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.bin" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.lock" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.bin" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.lock" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.gradle/7.6/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/fileHashes/resourceHashesCache.bin" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/navEditor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/navEditor.xml" afterDir="false" />
++    <list default="true" id="168ec69c-20b0-4229-9edc-4c682ab3adaf" name="Changes" comment="Session-3">
++      <change afterPath="$PROJECT_DIR$/features/app/src/main/java/app/web/drjackycv/features/app/presentation/GameThree.kt" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/features/app/src/main/res/drawable/micro.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/features/app/src/main/res/drawable/rectang.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/features/app/src/main/res/drawable/rectangle.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/features/app/src/main/res/layout/game_three_fragment.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/7.6/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/7.6/executionHistory/executionHistory.lock" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/features/app/src/main/java/app/web/drjackycv/features/app/presentation/MainScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/features/app/src/main/java/app/web/drjackycv/features/app/presentation/MainScreen.kt" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/features/app/src/main/java/app/web/drjackycv/features/app/presentation/ProfilePrefManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/features/app/src/main/java/app/web/drjackycv/features/app/presentation/ProfilePrefManager.kt" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/features/app/src/main/res/layout/main_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/features/app/src/main/res/layout/main_fragment.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/features/app/src/main/res/layout/profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/features/app/src/main/res/layout/profile.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/features/app/src/main/res/values-ru/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/features/app/src/main/res/values-ru/strings.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/features/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/features/app/src/main/res/values/strings.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/features/main/src/main/res/navigation/main_navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/features/main/src/main/res/navigation/main_navigation.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/core/designSystem/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/designSystem/src/main/res/values/colors.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/features/app/src/main/res/layout/game_one_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/features/app/src/main/res/layout/game_one_fragment.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/features/app/src/main/res/layout/game_two_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/features/app/src/main/res/layout/game_two_fragment.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -191,7 +174,7 @@
+     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+     "cf.first.check.clang-format": "false",
+     "cidr.known.project.marker": "true",
+-    "git-widget-placeholder": "Session-3",
++    "git-widget-placeholder": "Session-4",
+     "last_opened_file_path": "C:/Users/pospi/StudioProjects/AndroidLab/features/app/src/main/res/drawable",
+     "project.structure.last.edited": "Modules",
+     "project.structure.proportion": "0.17",
+@@ -202,10 +185,10 @@
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+       <recent name="C:\Users\pospi\StudioProjects\AndroidLab\features\app\src\main\res\drawable" />
++      <recent name="C:\Users\pospi\StudioProjects\AndroidLab\features\app\src\main\res\layout" />
+       <recent name="C:\Users\pospi\StudioProjects\MVIModularizationTemplate\features\onboarding\src\androidTest\java\app\web\drjackycv\splash" />
+       <recent name="C:\Users\pospi\StudioProjects\MVIModularizationTemplate\core\designSystem\src\main\res\font" />
+       <recent name="C:\Users\pospi\StudioProjects\MVIModularizationTemplate\features" />
+-      <recent name="C:\Users\pospi\StudioProjects\MVIModularizationTemplate\features\onboarding\src\main\res\values-ru" />
+     </key>
+     <key name="MoveFile.RECENT_KEYS">
+       <recent name="C:\Users\pospi\StudioProjects\AndroidLab\features\app\src\main\res\drawable" />
+@@ -682,7 +665,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1713082447257</updated>
+     </task>
+-    <option name="localTasksCounter" value="9" />
++    <task id="LOCAL-00009" summary="Session-3">
++      <option name="closed" value="true" />
++      <created>1713092213678</created>
++      <option name="number" value="00009" />
++      <option name="presentableId" value="LOCAL-00009" />
++      <option name="project" value="LOCAL" />
++      <updated>1713092213678</updated>
++    </task>
++    <option name="localTasksCounter" value="10" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -705,6 +696,7 @@
+     <MESSAGE value="GREEN" />
+     <MESSAGE value="REFACTOR" />
+     <MESSAGE value="Session-2" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Session-2" />
++    <MESSAGE value="Session-3" />
++    <option name="LAST_COMMIT_MESSAGE" value="Session-3" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: features/app/src/main/res/layout/game_three_fragment.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/features/app/src/main/res/layout/game_three_fragment.xml b/features/app/src/main/res/layout/game_three_fragment.xml
+new file mode 100644
+--- /dev/null	(date 1713094154365)
++++ b/features/app/src/main/res/layout/game_three_fragment.xml	(date 1713094154365)
+@@ -0,0 +1,169 @@
++<?xml version="1.0" encoding="utf-8"?>
++<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    android:layout_width="match_parent"
++    android:orientation="vertical"
++    android:backgroundTint="@color/colorPrimary"
++    android:layout_height="match_parent">
++
++
++        <LinearLayout
++            android:layout_width="match_parent"
++            android:layout_height="70dp"
++            android:background="#410FA3"
++            android:paddingStart="24dp"
++            android:paddingTop="16dp">
++
++            <LinearLayout
++                android:layout_width="match_parent"
++                android:layout_height="wrap_content"
++                android:orientation="horizontal">
++
++                <ImageButton
++                    android:id="@+id/back"
++                    android:layout_width="wrap_content"
++                    android:layout_height="wrap_content"
++                    android:backgroundTint="#410FA3"
++                    android:src="@drawable/baseline_arrow_back_ios_24" />
++
++                <TextView
++                    android:id="@+id/signup"
++                    android:layout_width="match_parent"
++                    android:layout_height="wrap_content"
++                    android:layout_gravity="center"
++                    android:layout_marginEnd="24dp"
++                    android:fontFamily="@font/fredoka_medium"
++                    android:gravity="start"
++                    android:paddingRight="64dp"
++                    android:text="@string/audition"
++                    android:textColor="@color/white"
++                    android:textSize="17sp"
++                    android:textStyle="normal" />
++            </LinearLayout>
++
++        </LinearLayout>
++    <LinearLayout
++        android:layout_width="match_parent"
++        android:layout_weight="1"
++
++        android:orientation="vertical"
++        android:layout_height="wrap_content">
++
++    <TextView
++        android:id="@+id/text"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:textSize="28sp"
++        android:fontFamily="@font/fredoka_bold"
++        android:textColor="@color/text_color"
++        android:gravity="center"
++        android:layout_marginTop="34dp"
++        android:text="gardener"/>
++
++    <TextView
++        android:id="@+id/trans"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:textSize="17sp"
++        android:fontFamily="@font/fredoka_regular"
++        android:textColor="@color/text_color"
++        android:gravity="center"
++        android:layout_marginTop="2dp"
++        android:text="[ 'gɑ:dnə ]"/>
++
++        <TextView
++            android:id="@+id/textpress"
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:layout_marginTop="35dp"
++            android:layout_marginHorizontal="24dp"
++            android:fontFamily="@font/fredoka_medium"
++            android:gravity="start"
++            android:text="Please press button and say this \n word. Our service will check\n your pronunciation "
++            android:textColor="@color/text_color"
++            android:textSize="22sp" />
++
++        <LinearLayout
++            android:id="@+id/third_after"
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:orientation="vertical"
++            >
++        <TextView
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:text="Your result"
++            android:fontFamily="@font/fredoka_regular"
++            android:textSize="16sp"
++            android:layout_marginTop="6dp"
++            android:layout_marginHorizontal="24dp"
++            android:textColor="@color/text_color"
++            />
++
++        <EditText
++            android:id="@+id/animalText"
++            android:layout_width="match_parent"
++            android:layout_height="56dp"
++            android:layout_marginTop="8dp"
++            android:enabled="false"
++            android:layout_marginHorizontal="24dp"
++            android:gravity="center_vertical"
++            android:paddingStart="12dp"
++            android:lines="1"
++            android:backgroundTint="#080E1E0D"
++            android:background="@drawable/rounded_button"/>
++        </LinearLayout>
++
++    <androidx.appcompat.widget.AppCompatButton
++        android:visibility="gone"
++        android:id="@+id/check_speech_btn"
++        android:layout_width="match_parent"
++        android:layout_height="56dp"
++        android:layout_marginTop="8dp"
++        android:background="@drawable/rounded_button_correct_all"
++        android:fontFamily="@font/fredoka_medium"
++        android:text="Check my speech"
++        android:gravity="center"
++        android:textColor="@color/white"
++        android:textAllCaps="false"
++        android:layout_marginHorizontal="24dp"
++
++        android:textSize="20sp" />
++
++        <androidx.appcompat.widget.AppCompatButton
++            android:id="@+id/next"
++            android:layout_width="match_parent"
++            android:layout_height="56dp"
++            android:layout_marginTop="12dp"
++            android:background="@drawable/rounded_button_correct_all"
++            android:fontFamily="@font/fredoka_medium"
++            android:text="Yay! Go next"
++            android:gravity="center"
++            android:textColor="@color/white"
++            android:textAllCaps="false"
++            android:layout_marginHorizontal="24dp"
++
++            android:textSize="20sp" />
++
++    </LinearLayout>
++
++
++    <LinearLayout
++        android:layout_weight="1"
++        android:layout_width="match_parent"
++        android:orientation="vertical"
++        android:layout_height="0dp">
++    <ImageButton
++        android:id="@+id/micro"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:src="@drawable/rectang"
++        android:layout_gravity="center_horizontal"
++        android:backgroundTint="@color/colorPrimary"
++        android:layout_marginTop="10dp"
++        android:background="@drawable/rounded_button_correct_all"
++        android:textAllCaps="false"
++        android:layout_marginHorizontal="24dp"
++        android:textSize="20sp" />
++    </LinearLayout>
++
++</LinearLayout>
+\ No newline at end of file
+Index: core/designSystem/src/main/res/values/colors.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<resources>\r\n    <color name=\"dark_red\">#B31A34</color>\r\n    <color name=\"light_red\">#C14454</color>\r\n    <color name=\"white\">#ffffff</color>\r\n    <color name=\"darkest_gray\">#4A4A4A</color>\r\n    <color name=\"dark_gray\">#757575</color>\r\n    <color name=\"light_gray\">#B8B8B8</color>\r\n    <color name=\"red\">#FF0000</color>\r\n    <color name=\"text_color\">#080E1E</color>\r\n    <color name=\"black\">#000000</color>\r\n    <color name=\"text_color_secondary\">#080E1E99</color>\r\n    <color name=\"colorPrimary\">@color/white</color>\r\n    <color name=\"orange\">#F76400</color>\r\n    <color name=\"orange2\">#FFF6EB</color>\r\n\r\n\r\n    <color name=\"detail_bg\">@color/white</color>\r\n</resources>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/core/designSystem/src/main/res/values/colors.xml b/core/designSystem/src/main/res/values/colors.xml
+--- a/core/designSystem/src/main/res/values/colors.xml	(revision 11dbac6e5f563d55a1c10063d7e14f7687e673f6)
++++ b/core/designSystem/src/main/res/values/colors.xml	(date 1713093769107)
+@@ -16,4 +16,7 @@
+ 
+ 
+     <color name="detail_bg">@color/white</color>
++
++    <color name="error">#EF5DA8</color>
++    <color name="correct">#5BA890</color>
+ </resources>
+\ No newline at end of file
+Index: features/app/src/main/java/app/web/drjackycv/features/app/presentation/GameThree.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/features/app/src/main/java/app/web/drjackycv/features/app/presentation/GameThree.kt b/features/app/src/main/java/app/web/drjackycv/features/app/presentation/GameThree.kt
+new file mode 100644
+--- /dev/null	(date 1713093327265)
++++ b/features/app/src/main/java/app/web/drjackycv/features/app/presentation/GameThree.kt	(date 1713093327265)
+@@ -0,0 +1,273 @@
++package app.web.drjackycv.features.app.presentation
++
++import android.annotation.SuppressLint
++import android.app.Activity
++import android.content.Context
++import android.content.Intent
++import android.content.res.Configuration
++import android.graphics.BitmapFactory
++import android.net.Uri
++import android.os.Bundle
++import android.util.Log
++import android.view.View
++import androidx.appcompat.app.AppCompatDelegate
++import androidx.core.net.toUri
++import androidx.fragment.app.Fragment
++import androidx.navigation.NavDeepLinkRequest
++import androidx.navigation.fragment.findNavController
++import app.web.drjackycv.core.designsystem.gone
++import app.web.drjackycv.core.designsystem.viewBinding
++import app.web.drjackycv.core.designsystem.visible
++import app.web.drjackycv.features.app.R
++import app.web.drjackycv.features.app.databinding.GameOneFragmentBinding
++import app.web.drjackycv.features.app.databinding.GameTwoFragmentBinding
++import app.web.drjackycv.features.app.databinding.ProfileBinding
++import com.google.android.material.snackbar.Snackbar
++import com.theartofdev.edmodo.cropper.CropImage
++import io.github.jan.supabase.SupabaseClient
++import io.github.jan.supabase.createSupabaseClient
++import io.github.jan.supabase.gotrue.Auth
++import io.github.jan.supabase.gotrue.FlowType
++import io.github.jan.supabase.gotrue.auth
++import io.github.jan.supabase.postgrest.Postgrest
++import io.github.jan.supabase.postgrest.from
++import io.github.jan.supabase.storage.Storage
++import io.github.jan.supabase.storage.storage
++import kotlinx.coroutines.CoroutineScope
++import kotlinx.coroutines.Dispatchers
++import kotlinx.coroutines.launch
++import kotlinx.coroutines.withContext
++import java.util.Locale
++
++class GameThree : Fragment(R.layout.game_two_fragment) {
++
++    private val binding by viewBinding(GameTwoFragmentBinding::bind)
++    private lateinit var prefManager: ProfilePrefManager
++    private lateinit var supabaseClient: SupabaseClient
++
++    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
++        super.onViewCreated(view, savedInstanceState)
++        prefManager = ProfilePrefManager(requireContext())
++        supabaseClient = createSupabaseClient(
++            supabaseUrl = "https://emursxnkqovvvuzernos.supabase.co",
++            supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVtdXJzeG5rcW92dnZ1emVybm9zIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTcxMjc0NjkyNiwiZXhwIjoyMDI4MzIyOTI2fQ.WrgXa6sEc_RIeM-T4duVjSTr5S5TqULkKiovHP2BWwo"
++        ) {
++            install(Postgrest)
++            install(Auth) {
++                flowType = FlowType.PKCE
++                scheme = "app"
++                host = "supabase.com"
++            }
++            install(Storage)
++
++        }
++        checkButton()
++        backButton()
++        nextClick()
++        downloadAllText()
++    }
++
++    private fun checkButton() {
++        binding.firstBtn.setOnClickListener {
++            if (prefManager.pastCorrectGame2 == 1) {
++                binding.firstBtn.background =
++                    resources.getDrawable(R.drawable.rounded_button_correct)
++                prefManager.isStreak += 1
++                prefManager.points += 1f
++                if (prefManager.isStreak >= 2f) {
++                    prefManager.points += (0.2f * prefManager.isStreak)
++                }
++                setPoints()
++            } else {
++                prefManager.isStreak = 0
++                binding.firstBtn.background =
++                    resources.getDrawable(R.drawable.rounded_button_incorrect)
++                if (prefManager.pastCorrectGame2 == 3) {
++                    binding.thirdBtn.background =
++                        resources.getDrawable(R.drawable.rounded_button_correct)
++                }
++                if (prefManager.pastCorrectGame2 == 2) {
++                    binding.secondBtn.background =
++                        resources.getDrawable(R.drawable.rounded_button_correct)
++                }
++                if (prefManager.pastCorrectGame2 == 4) {
++                    binding.fourthBtn.background =
++                        resources.getDrawable(R.drawable.rounded_button_correct)
++                }
++            }
++            binding.firstBtn.isEnabled = false
++            binding.secondBtn.isEnabled = false
++            binding.fourthBtn.isEnabled = false
++            binding.thirdBtn.isEnabled = false
++        }
++        binding.secondBtn.setOnClickListener {
++            if (prefManager.pastCorrectGame2 == 2) {
++                binding.secondBtn.background =
++                    resources.getDrawable(R.drawable.rounded_button_correct)
++                prefManager.isStreak += 1
++                prefManager.points += 1f
++                if (prefManager.isStreak >= 2f) {
++                    prefManager.points += (0.2f * prefManager.isStreak)
++                }
++                setPoints()
++            } else {
++                prefManager.isStreak = 0
++                binding.secondBtn.background =
++                    resources.getDrawable(R.drawable.rounded_button_incorrect)
++                if (prefManager.pastCorrectGame2 == 3) {
++                    binding.thirdBtn.background =
++                        resources.getDrawable(R.drawable.rounded_button_correct)
++                }
++                if (prefManager.pastCorrectGame2 == 4) {
++                    binding.fourthBtn.background =
++                        resources.getDrawable(R.drawable.rounded_button_correct)
++                }
++                if (prefManager.pastCorrectGame2 == 1) {
++                    binding.firstBtn.background =
++                        resources.getDrawable(R.drawable.rounded_button_correct)
++                }
++            }
++            binding.firstBtn.isEnabled = false
++            binding.secondBtn.isEnabled = false
++            binding.fourthBtn.isEnabled = false
++            binding.thirdBtn.isEnabled = false
++        }
++        binding.thirdBtn.setOnClickListener {
++            if (prefManager.pastCorrectGame2 == 3) {
++                binding.thirdBtn.background =
++                    resources.getDrawable(R.drawable.rounded_button_correct)
++                prefManager.isStreak += 1
++                prefManager.points += 1f
++                if (prefManager.isStreak >= 2f) {
++                    prefManager.points += (0.2f * prefManager.isStreak)
++                }
++                setPoints()
++            } else {
++                prefManager.isStreak = 0
++                binding.thirdBtn.background =
++                    resources.getDrawable(R.drawable.rounded_button_incorrect)
++                if (prefManager.pastCorrectGame2 == 4) {
++                    binding.fourthBtn.background =
++                        resources.getDrawable(R.drawable.rounded_button_correct)
++                }
++                if (prefManager.pastCorrectGame2 == 2) {
++                    binding.secondBtn.background =
++                        resources.getDrawable(R.drawable.rounded_button_correct)
++                }
++                if (prefManager.pastCorrectGame2 == 1) {
++                    binding.firstBtn.background =
++                        resources.getDrawable(R.drawable.rounded_button_correct)
++                }
++            }
++            binding.firstBtn.isEnabled = false
++            binding.secondBtn.isEnabled = false
++            binding.fourthBtn.isEnabled = false
++            binding.thirdBtn.isEnabled = false
++        }
++        binding.fourthBtn.setOnClickListener {
++            if (prefManager.pastCorrectGame2 == 4) {
++                binding.fourthBtn.background =
++                    resources.getDrawable(R.drawable.rounded_button_correct)
++                prefManager.isStreak += 1
++                prefManager.points += 1f
++                if (prefManager.isStreak >= 2f) {
++                    prefManager.points += (0.2f * prefManager.isStreak)
++                }
++                setPoints()
++            } else {
++                binding.fourthBtn.background =
++                    resources.getDrawable(R.drawable.rounded_button_incorrect)
++                if (prefManager.pastCorrectGame2 == 3) {
++                    binding.thirdBtn.background =
++                        resources.getDrawable(R.drawable.rounded_button_correct)
++                }
++                if (prefManager.pastCorrectGame2 == 2) {
++                    binding.secondBtn.background =
++                        resources.getDrawable(R.drawable.rounded_button_correct)
++                }
++                if (prefManager.pastCorrectGame2 == 1) {
++                    binding.firstBtn.background =
++                        resources.getDrawable(R.drawable.rounded_button_correct)
++                }
++            }
++            binding.firstBtn.isEnabled = false
++            binding.secondBtn.isEnabled = false
++            binding.fourthBtn.isEnabled = false
++            binding.thirdBtn.isEnabled = false
++        }
++    }
++
++
++    private fun nextClick() {
++        binding.next.setOnClickListener {
++            binding.firstBtn.isEnabled = true
++            binding.secondBtn.isEnabled = true
++            binding.fourthBtn.isEnabled = true
++            binding.thirdBtn.isEnabled = true
++            downloadAllText()
++        }
++    }
++
++    private fun setPoints() {
++        CoroutineScope(Dispatchers.IO).launch {
++            try {
++
++                supabaseClient.from("users").delete {
++                    filter {
++                        Users::email eq prefManager.email
++                    }
++                }
++                val city = Users(email = prefManager.email!!, points = prefManager.points)
++                supabaseClient.from("users").insert(city)
++            } catch (e: Exception) {
++
++            }
++        }
++    }
++
++    private fun backButton() {
++        binding.back.setOnClickListener {
++            prefManager.isStreak = 0
++            val request = NavDeepLinkRequest.Builder
++                .fromUri("android-app://app.web.drjackycv/main".toUri())
++                .build()
++            findNavController().navigate(request)
++        }
++    }
++
++    @SuppressLint("UseCompatLoadingForDrawables")
++    private fun downloadAllText() {
++        CoroutineScope(Dispatchers.Main).launch {
++            try {
++                val animal: List<GameTwoModel>
++                if (prefManager.pastRU) {
++                    animal = supabaseClient.from("game2_en").select().decodeList<GameTwoModel>()
++                    prefManager.pastRU = false
++                } else {
++                    animal = supabaseClient.from("game2_ru").select().decodeList<GameTwoModel>()
++                    prefManager.pastRU = true
++                }
++
++                val randomAnimal = animal.random()
++                prefManager.pastCorrectGame2 = randomAnimal.correct
++
++                binding.text.text = randomAnimal.text
++                binding.trans.text = randomAnimal.transcription
++                binding.firstBtn.text = randomAnimal.first
++                binding.secondBtn.text = randomAnimal.second
++                binding.thirdBtn.text = randomAnimal.third
++                binding.fourthBtn.text = randomAnimal.fourth
++
++                binding.firstBtn.background = resources.getDrawable(R.drawable.base)
++                binding.secondBtn.background = resources.getDrawable(R.drawable.base)
++                binding.thirdBtn.background = resources.getDrawable(R.drawable.base)
++                binding.fourthBtn.background = resources.getDrawable(R.drawable.base)
++
++
++            } catch (e: Exception) {
++                Log.e("JOPS", e.toString())
++            }
++        }
++    }
++
++}
+Index: features/app/src/main/res/drawable/rectang.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/features/app/src/main/res/drawable/rectang.xml b/features/app/src/main/res/drawable/rectang.xml
+new file mode 100644
+--- /dev/null	(date 1713094053379)
++++ b/features/app/src/main/res/drawable/rectang.xml	(date 1713094053379)
+@@ -0,0 +1,13 @@
++<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
++    <!-- Define your shape -->
++    <item>
++        <shape android:shape="rectangle">
++            <corners android:radius="50dp" />
++            <solid android:color="#00B5AE" />
++            <size android:height="160dp" android:width="160dp"/>
++        </shape>
++    </item>
++
++    <!-- Add your bitmap image -->
++    <item android:drawable="@drawable/micro" />
++</layer-list>
+\ No newline at end of file

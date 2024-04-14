@@ -29,7 +29,7 @@ object Depends {
         const val gradleVersion = "7.3.1"
         const val androidCompileSdkVersion = 34
         const val targetSdkVersion = 34
-        const val minSdkVersion = 21
+        const val minSdkVersion = 27
         const val testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         const val kotlinVersion = "1.8.10"
         const val rxKotlinVersion = "3.0.1"

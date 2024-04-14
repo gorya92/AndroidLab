@@ -3,7 +3,7 @@
     package="app.web.drjackycv.features.onboarding" >
 
     <uses-sdk
-        android:minSdkVersion="21"
+        android:minSdkVersion="27"
         android:targetSdkVersion="34" />
 
 </manifest>
