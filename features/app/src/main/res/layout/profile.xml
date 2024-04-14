@@ -98,7 +98,7 @@
 
         android:textSize="20sp" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/Logout"
         android:layout_width="match_parent"
         android:layout_height="56dp"
@@ -107,6 +107,7 @@
         android:backgroundTint="#E5E5E5"
         android:fontFamily="@font/fredoka_medium"
         android:text="@string/logout"
+        android:gravity="center"
         android:textAllCaps="false"
         android:textColor="#FFFFFF"
         android:textSize="20sp" />

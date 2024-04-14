@@ -5,6 +5,16 @@
       <config />
     </shared>
     <layouts>
+      <layout url="file://$PROJECT_DIR$/features/app/src/main/res/layout/game_one_fragment.xml">
+        <config>
+          <theme>@android:style/Theme.Material.Light</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/features/app/src/main/res/layout/game_two_fragment.xml">
+        <config>
+          <theme>@android:style/Theme.Material.Light</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/features/app/src/main/res/layout/main_fragment.xml">
         <config>
           <theme>@android:style/Theme.Material.Light</theme>
@@ -69,8 +79,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="168ec69c-20b0-4229-9edc-4c682ab3adaf" name="Changes" comment="Session-2">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/common/exceptions/MVIModularizationTemplate.common.exceptions.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/features/onboarding/MVIModularizationTemplate.features.onboarding.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/app/src/main/java/app/web/drjackycv/features/app/presentation/GameOne.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/app/src/main/java/app/web/drjackycv/features/app/presentation/GameTwo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/app/src/main/java/app/web/drjackycv/features/app/presentation/GameTwoModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/app/src/main/res/drawable/base.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/app/src/main/res/drawable/baseline_arrow_back_ios_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/app/src/main/res/drawable/loose.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/app/src/main/res/drawable/rounded_button_base.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/app/src/main/res/drawable/rounded_button_correct.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/app/src/main/res/drawable/rounded_button_correct_all.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/app/src/main/res/drawable/rounded_button_incorrect.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/app/src/main/res/drawable/win.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/app/src/main/res/layout/game_one_fragment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/app/src/main/res/layout/game_two_fragment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.bin" afterDir="false" />
@@ -78,68 +99,17 @@
       <change beforePath="$PROJECT_DIR$/.gradle/7.6/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/MVIModularizationTemplate.app.androidTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/MVIModularizationTemplate.app.androidTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/MVIModularizationTemplate.app.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/MVIModularizationTemplate.app.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/MVIModularizationTemplate.app.unitTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/MVIModularizationTemplate.app.unitTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/common/exceptions/MVIModularizationTemplate.common.exceptions.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/core/network/MVIModularizationTemplate.core.network.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/core/designSystem/MVIModularizationTemplate.core.designSystem.androidTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/core/designSystem/MVIModularizationTemplate.core.designSystem.androidTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/core/designSystem/MVIModularizationTemplate.core.designSystem.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/core/designSystem/MVIModularizationTemplate.core.designSystem.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/core/designSystem/MVIModularizationTemplate.core.designSystem.unitTest.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/core/navigation/MVIModularizationTemplate.core.navigation.androidTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/core/navigation/MVIModularizationTemplate.core.navigation.androidTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/core/navigation/MVIModularizationTemplate.core.navigation.unitTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/common/exceptions/MVIModularizationTemplate.common.exceptions.unitTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/core/network/MVIModularizationTemplate.core.network.androidTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/common/exceptions/MVIModularizationTemplate.common.exceptions.androidTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/features/app/MVIModularizationTemplate.features.app.unitTest.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/features/app/app.MVIModularizationTemplate.features.app.androidTest.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/features/main/MVIModularizationTemplate.features.main.androidTest.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/features/main/MVIModularizationTemplate.features.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/features/app/MVIModularizationTemplate.features.app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/features/main/MVIModularizationTemplate.features.main.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/features/app/MVIModularizationTemplate.features.app.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/features/main/MVIModularizationTemplate.features.main.unitTest.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/features/onboarding/MVIModularizationTemplate.features.onboarding.unitTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/features/onboarding/MVIModularizationTemplate.features.onboarding.androidTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/features/splash/MVIModularizationTemplate.features.splash.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/features/onboarding/MVIModularizationTemplate.features.onboarding.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/features/splash/MVIModularizationTemplate.features.splash.unitTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/features/splash/MVIModularizationTemplate.features.splash.androidTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/navEditor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/navEditor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/7.6/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/7.6/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/app/src/main/java/app/web/drjackycv/features/app/presentation/Profile.kt" beforeDir="false" afterPath="$PROJECT_DIR$/features/app/src/main/java/app/web/drjackycv/features/app/presentation/Profile.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/.transforms/689330cffad7c10f1ef4d59ac1ffd514/transformed/debug/app/web/drjackycv/features/onboarding/presentation/OnBoardingPrefManager.dex" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/.transforms/689330cffad7c10f1ef4d59ac1ffd514/transformed/debug/app/web/drjackycv/features/onboarding/presentation/OnBoardingPrefManager.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/intermediates/compile_library_classes_jar/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/intermediates/compile_library_classes_jar/debug/classes.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/intermediates/runtime_library_classes_dir/debug/app/web/drjackycv/features/onboarding/presentation/OnBoardingPrefManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/intermediates/runtime_library_classes_dir/debug/app/web/drjackycv/features/onboarding/presentation/OnBoardingPrefManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/intermediates/runtime_library_classes_jar/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/intermediates/runtime_library_classes_jar/debug/classes.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/counters.tab" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/counters.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/compileDebugKotlin/cacheable/last-build.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/last-build.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/build/tmp/kotlin-classes/debug/app/web/drjackycv/features/onboarding/presentation/OnBoardingPrefManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/build/tmp/kotlin-classes/debug/app/web/drjackycv/features/onboarding/presentation/OnBoardingPrefManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/onboarding/src/main/java/app/web/drjackycv/features/onboarding/presentation/OnBoardingPrefManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/features/onboarding/src/main/java/app/web/drjackycv/features/onboarding/presentation/OnBoardingPrefManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/app/src/main/java/app/web/drjackycv/features/app/presentation/MainScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/features/app/src/main/java/app/web/drjackycv/features/app/presentation/MainScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/app/src/main/java/app/web/drjackycv/features/app/presentation/ProfilePrefManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/features/app/src/main/java/app/web/drjackycv/features/app/presentation/ProfilePrefManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/app/src/main/res/layout/main_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/features/app/src/main/res/layout/main_fragment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/app/src/main/res/layout/profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/features/app/src/main/res/layout/profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/app/src/main/res/values-ru/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/features/app/src/main/res/values-ru/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/features/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/main/src/main/res/navigation/main_navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/features/main/src/main/res/navigation/main_navigation.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,11 +141,11 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="valueResourceFile" />
-        <option value="resourceFile" />
         <option value="Kotlin Class" />
         <option value="Class" />
         <option value="layoutResourceFile" />
         <option value="Kotlin File" />
+        <option value="resourceFile" />
       </list>
     </option>
   </component>
@@ -213,29 +183,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Session-2&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/pospi/StudioProjects/MVIModularizationTemplate/features/onboarding/src/androidTest/java/app/web/drjackycv/splash&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "Session-3",
+    "last_opened_file_path": "C:/Users/pospi/StudioProjects/AndroidLab/features/app/src/main/res/drawable",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "advanced.settings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pospi\StudioProjects\AndroidLab\features\app\src\main\res\drawable" />
       <recent name="C:\Users\pospi\StudioProjects\MVIModularizationTemplate\features\onboarding\src\androidTest\java\app\web\drjackycv\splash" />
       <recent name="C:\Users\pospi\StudioProjects\MVIModularizationTemplate\core\designSystem\src\main\res\font" />
       <recent name="C:\Users\pospi\StudioProjects\MVIModularizationTemplate\features" />
       <recent name="C:\Users\pospi\StudioProjects\MVIModularizationTemplate\features\onboarding\src\main\res\values-ru" />
-      <recent name="C:\Users\pospi\StudioProjects\MVIModularizationTemplate\features\onboarding\src\main\res\layout" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\pospi\StudioProjects\AndroidLab\features\app\src\main\res\drawable" />
@@ -704,7 +674,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713004268821</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Session-2">
+      <option name="closed" value="true" />
+      <created>1713082447256</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1713082447257</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

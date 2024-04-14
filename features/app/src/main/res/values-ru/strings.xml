@@ -13,4 +13,12 @@
     <string name="word_practice">Словесная практика</string>
     <string name="audition">Прослушивание</string>
     <string name="game">Игра</string>
+
+    <string name="write_who_is_on_image">Напишите кто на картинке</string>
+    <string name="check">Проверить</string>
+    <string name="holy_molly_that_is_right">Это верно!</string>
+    <string name="next">Дальше</string>
+    <string name="try_again">Попробуйте еще</string>
+    <string name="eh_wrong_answer">Э? Неверный ответ :(</string>
+    <string name="that_is">это</string>
 </resources>
