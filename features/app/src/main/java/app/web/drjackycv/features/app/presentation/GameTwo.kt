@@ -44,6 +44,7 @@ class GameTwo : Fragment(R.layout.game_two_fragment) {
     private val binding by viewBinding(GameTwoFragmentBinding::bind)
     private lateinit var prefManager: ProfilePrefManager
     private lateinit var supabaseClient: SupabaseClient
+    private var clicked: Int = 0
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -68,128 +69,180 @@ class GameTwo : Fragment(R.layout.game_two_fragment) {
     }
 
     private fun checkButton() {
-        binding.firstBtn.setOnClickListener {
-            if (prefManager.pastCorrectGame2 == 1) {
-                binding.firstBtn.background =
-                    resources.getDrawable(R.drawable.rounded_button_correct)
-                prefManager.isStreak += 1
-                prefManager.points += 1f
-                if (prefManager.isStreak >= 2f) {
-                    prefManager.points += (0.2f * prefManager.isStreak)
+        binding.check.setOnClickListener {
+            when (clicked) {
+                0 -> {}
+                1 -> {
+                    binding.check.gone()
+                    binding.next.visible()
+                    if (prefManager.pastCorrectGame2 == 1) {
+                        binding.firstBtn.background =
+                            resources.getDrawable(R.drawable.rounded_button_correct)
+                        prefManager.isStreak += 1
+                        prefManager.points += 1f
+                        if (prefManager.isStreak >= 2f) {
+                            prefManager.points += (0.2f * prefManager.isStreak)
+                        }
+                        setPoints()
+                    } else {
+                        prefManager.isStreak = 0
+                        binding.firstBtn.background =
+                            resources.getDrawable(R.drawable.rounded_button_incorrect)
+                        if (prefManager.pastCorrectGame2 == 3) {
+                            binding.thirdBtn.background =
+                                resources.getDrawable(R.drawable.rounded_button_correct)
+                        }
+                        if (prefManager.pastCorrectGame2 == 2) {
+                            binding.secondBtn.background =
+                                resources.getDrawable(R.drawable.rounded_button_correct)
+                        }
+                        if (prefManager.pastCorrectGame2 == 4) {
+                            binding.fourthBtn.background =
+                                resources.getDrawable(R.drawable.rounded_button_correct)
+                        }
+                    }
+                    binding.firstBtn.isEnabled = false
+                    binding.secondBtn.isEnabled = false
+                    binding.fourthBtn.isEnabled = false
+                    binding.thirdBtn.isEnabled = false
                 }
-                setPoints()
-            } else {
-                prefManager.isStreak = 0
-                binding.firstBtn.background =
-                    resources.getDrawable(R.drawable.rounded_button_incorrect)
-                if (prefManager.pastCorrectGame2 == 3) {
-                    binding.thirdBtn.background =
-                        resources.getDrawable(R.drawable.rounded_button_correct)
+
+                2 -> {
+                    binding.check.gone()
+                    binding.next.visible()
+                    if (prefManager.pastCorrectGame2 == 2) {
+                        binding.secondBtn.background =
+                            resources.getDrawable(R.drawable.rounded_button_correct)
+                        prefManager.isStreak += 1
+                        prefManager.points += 1f
+                        if (prefManager.isStreak >= 2f) {
+                            prefManager.points += (0.2f * prefManager.isStreak)
+                        }
+                        setPoints()
+                    } else {
+                        prefManager.isStreak = 0
+                        binding.secondBtn.background =
+                            resources.getDrawable(R.drawable.rounded_button_incorrect)
+                        if (prefManager.pastCorrectGame2 == 3) {
+                            binding.thirdBtn.background =
+                                resources.getDrawable(R.drawable.rounded_button_correct)
+                        }
+                        if (prefManager.pastCorrectGame2 == 4) {
+                            binding.fourthBtn.background =
+                                resources.getDrawable(R.drawable.rounded_button_correct)
+                        }
+                        if (prefManager.pastCorrectGame2 == 1) {
+                            binding.firstBtn.background =
+                                resources.getDrawable(R.drawable.rounded_button_correct)
+                        }
+                    }
+                    binding.firstBtn.isEnabled = false
+                    binding.secondBtn.isEnabled = false
+                    binding.fourthBtn.isEnabled = false
+                    binding.thirdBtn.isEnabled = false
                 }
-                if (prefManager.pastCorrectGame2 == 2) {
-                    binding.secondBtn.background =
-                        resources.getDrawable(R.drawable.rounded_button_correct)
+
+                3 -> {
+                    binding.check.gone()
+                    binding.next.visible()
+                    if (prefManager.pastCorrectGame2 == 3) {
+                        binding.thirdBtn.background =
+                            resources.getDrawable(R.drawable.rounded_button_correct)
+                        prefManager.isStreak += 1
+                        prefManager.points += 1f
+                        if (prefManager.isStreak >= 2f) {
+                            prefManager.points += (0.2f * prefManager.isStreak)
+                        }
+                        setPoints()
+                    } else {
+                        prefManager.isStreak = 0
+                        binding.thirdBtn.background =
+                            resources.getDrawable(R.drawable.rounded_button_incorrect)
+                        if (prefManager.pastCorrectGame2 == 4) {
+                            binding.fourthBtn.background =
+                                resources.getDrawable(R.drawable.rounded_button_correct)
+                        }
+                        if (prefManager.pastCorrectGame2 == 2) {
+                            binding.secondBtn.background =
+                                resources.getDrawable(R.drawable.rounded_button_correct)
+                        }
+                        if (prefManager.pastCorrectGame2 == 1) {
+                            binding.firstBtn.background =
+                                resources.getDrawable(R.drawable.rounded_button_correct)
+                        }
+                    }
+                    binding.firstBtn.isEnabled = false
+                    binding.secondBtn.isEnabled = false
+                    binding.fourthBtn.isEnabled = false
+                    binding.thirdBtn.isEnabled = false
                 }
-                if (prefManager.pastCorrectGame2 == 4) {
-                    binding.fourthBtn.background =
-                        resources.getDrawable(R.drawable.rounded_button_correct)
+
+                4 -> {
+                    binding.check.gone()
+                    binding.next.visible()
+                    if (prefManager.pastCorrectGame2 == 4) {
+                        binding.fourthBtn.background =
+                            resources.getDrawable(R.drawable.rounded_button_correct)
+                        prefManager.isStreak += 1
+                        prefManager.points += 1f
+                        if (prefManager.isStreak >= 2f) {
+                            prefManager.points += (0.2f * prefManager.isStreak)
+                        }
+                        setPoints()
+                    } else {
+                        binding.fourthBtn.background =
+                            resources.getDrawable(R.drawable.rounded_button_incorrect)
+                        if (prefManager.pastCorrectGame2 == 3) {
+                            binding.thirdBtn.background =
+                                resources.getDrawable(R.drawable.rounded_button_correct)
+                        }
+                        if (prefManager.pastCorrectGame2 == 2) {
+                            binding.secondBtn.background =
+                                resources.getDrawable(R.drawable.rounded_button_correct)
+                        }
+                        if (prefManager.pastCorrectGame2 == 1) {
+                            binding.firstBtn.background =
+                                resources.getDrawable(R.drawable.rounded_button_correct)
+                        }
+                    }
+                    binding.firstBtn.isEnabled = false
+                    binding.secondBtn.isEnabled = false
+                    binding.fourthBtn.isEnabled = false
+                    binding.thirdBtn.isEnabled = false
                 }
             }
+        }
+        binding.firstBtn.setOnClickListener {
+            clicked = 1
+            binding.firstBtn.background =
+                resources.getDrawable(R.drawable.rounded_button_correct_all)
             binding.firstBtn.isEnabled = false
             binding.secondBtn.isEnabled = false
             binding.fourthBtn.isEnabled = false
             binding.thirdBtn.isEnabled = false
         }
         binding.secondBtn.setOnClickListener {
-            if (prefManager.pastCorrectGame2 == 2) {
-                binding.secondBtn.background =
-                    resources.getDrawable(R.drawable.rounded_button_correct)
-                prefManager.isStreak += 1
-                prefManager.points += 1f
-                if (prefManager.isStreak >= 2f) {
-                    prefManager.points += (0.2f * prefManager.isStreak)
-                }
-                setPoints()
-            } else {
-                prefManager.isStreak = 0
-                binding.secondBtn.background =
-                    resources.getDrawable(R.drawable.rounded_button_incorrect)
-                if (prefManager.pastCorrectGame2 == 3) {
-                    binding.thirdBtn.background =
-                        resources.getDrawable(R.drawable.rounded_button_correct)
-                }
-                if (prefManager.pastCorrectGame2 == 4) {
-                    binding.fourthBtn.background =
-                        resources.getDrawable(R.drawable.rounded_button_correct)
-                }
-                if (prefManager.pastCorrectGame2 == 1) {
-                    binding.firstBtn.background =
-                        resources.getDrawable(R.drawable.rounded_button_correct)
-                }
-            }
+            clicked = 2
+            binding.secondBtn.background =
+                resources.getDrawable(R.drawable.rounded_button_correct_all)
             binding.firstBtn.isEnabled = false
             binding.secondBtn.isEnabled = false
             binding.fourthBtn.isEnabled = false
             binding.thirdBtn.isEnabled = false
         }
         binding.thirdBtn.setOnClickListener {
-            if (prefManager.pastCorrectGame2 == 3) {
-                binding.thirdBtn.background =
-                    resources.getDrawable(R.drawable.rounded_button_correct)
-                prefManager.isStreak += 1
-                prefManager.points += 1f
-                if (prefManager.isStreak >= 2f) {
-                    prefManager.points += (0.2f * prefManager.isStreak)
-                }
-                setPoints()
-            } else {
-                prefManager.isStreak = 0
-                binding.thirdBtn.background =
-                    resources.getDrawable(R.drawable.rounded_button_incorrect)
-                if (prefManager.pastCorrectGame2 == 4) {
-                    binding.fourthBtn.background =
-                        resources.getDrawable(R.drawable.rounded_button_correct)
-                }
-                if (prefManager.pastCorrectGame2 == 2) {
-                    binding.secondBtn.background =
-                        resources.getDrawable(R.drawable.rounded_button_correct)
-                }
-                if (prefManager.pastCorrectGame2 == 1) {
-                    binding.firstBtn.background =
-                        resources.getDrawable(R.drawable.rounded_button_correct)
-                }
-            }
+            clicked = 3
+            binding.thirdBtn.background =
+                resources.getDrawable(R.drawable.rounded_button_correct_all)
             binding.firstBtn.isEnabled = false
             binding.secondBtn.isEnabled = false
             binding.fourthBtn.isEnabled = false
             binding.thirdBtn.isEnabled = false
         }
         binding.fourthBtn.setOnClickListener {
-            if (prefManager.pastCorrectGame2 == 4) {
-                binding.fourthBtn.background =
-                    resources.getDrawable(R.drawable.rounded_button_correct)
-                prefManager.isStreak += 1
-                prefManager.points += 1f
-                if (prefManager.isStreak >= 2f) {
-                    prefManager.points += (0.2f * prefManager.isStreak)
-                }
-                setPoints()
-            } else {
-                binding.fourthBtn.background =
-                    resources.getDrawable(R.drawable.rounded_button_incorrect)
-                if (prefManager.pastCorrectGame2 == 3) {
-                    binding.thirdBtn.background =
-                        resources.getDrawable(R.drawable.rounded_button_correct)
-                }
-                if (prefManager.pastCorrectGame2 == 2) {
-                    binding.secondBtn.background =
-                        resources.getDrawable(R.drawable.rounded_button_correct)
-                }
-                if (prefManager.pastCorrectGame2 == 1) {
-                    binding.firstBtn.background =
-                        resources.getDrawable(R.drawable.rounded_button_correct)
-                }
-            }
+            clicked = 4
+            binding.fourthBtn.background =
+                resources.getDrawable(R.drawable.rounded_button_correct_all)
             binding.firstBtn.isEnabled = false
             binding.secondBtn.isEnabled = false
             binding.fourthBtn.isEnabled = false
@@ -204,6 +257,9 @@ class GameTwo : Fragment(R.layout.game_two_fragment) {
             binding.secondBtn.isEnabled = true
             binding.fourthBtn.isEnabled = true
             binding.thirdBtn.isEnabled = true
+            clicked = 0
+            binding.check.visible()
+            binding.next.gone()
             downloadAllText()
         }
     }
