@@ -30,7 +30,7 @@ class OnBoardingPrefManager(_context: Context) {
 
     var isLanguagedChoised: Boolean
         get() {
-            return pref.getBoolean(IS_LANGUAGE_VOTED, true)
+            return pref.getBoolean(IS_LANGUAGE_VOTED, false)
         }
         set(isFirstTime) {
             editor.putBoolean(IS_LANGUAGE_VOTED, isFirstTime)
@@ -39,7 +39,7 @@ class OnBoardingPrefManager(_context: Context) {
 
     var isAuth: Boolean
         get() {
-            return pref.getBoolean(IS_AUTH, true)
+            return pref.getBoolean(IS_AUTH, false)
         }
         set(isFirstTime) {
             editor.putBoolean(IS_AUTH, isFirstTime)

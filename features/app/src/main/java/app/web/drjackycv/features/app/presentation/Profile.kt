@@ -1,43 +1,37 @@
 package app.web.drjackycv.features.app.presentation
 
 import android.app.Activity
+import android.content.Context
 import android.content.Intent
+import android.content.res.Configuration
 import android.graphics.BitmapFactory
 import android.net.Uri
 import android.os.Bundle
-import android.provider.MediaStore
 import android.util.Log
 import android.view.View
-import android.widget.ImageView
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.net.toUri
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.lifecycleScope
 import androidx.navigation.NavDeepLinkRequest
 import androidx.navigation.fragment.findNavController
-import app.web.drjackycv.core.designsystem.setOnReactiveClickListener
 import app.web.drjackycv.core.designsystem.viewBinding
-import app.web.drjackycv.features.app.databinding.ProfileBinding
 import app.web.drjackycv.features.app.R
+import app.web.drjackycv.features.app.databinding.ProfileBinding
 import com.google.android.material.snackbar.Snackbar
 import com.theartofdev.edmodo.cropper.CropImage
-import de.hdodenhof.circleimageview.CircleImageView
 import io.github.jan.supabase.SupabaseClient
 import io.github.jan.supabase.createSupabaseClient
 import io.github.jan.supabase.gotrue.Auth
 import io.github.jan.supabase.gotrue.FlowType
 import io.github.jan.supabase.gotrue.auth
-import io.github.jan.supabase.gotrue.providers.builtin.Email
 import io.github.jan.supabase.postgrest.Postgrest
 import io.github.jan.supabase.storage.Storage
 import io.github.jan.supabase.storage.storage
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import java.io.InputStream
-import java.util.UUID
+import java.util.Locale
 
 class Profile : Fragment(R.layout.profile) {
 
@@ -67,6 +61,7 @@ class Profile : Fragment(R.layout.profile) {
         changeLanguage()
         binding.profiletv.text = "${binding.profiletv.text} ${prefManager.email}"
         downloadAndDisplayProfilePicture()
+        signOut()
     }
 
     private fun downloadAndDisplayProfilePicture() {
@@ -120,6 +115,11 @@ class Profile : Fragment(R.layout.profile) {
             } else {
                 AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
             }
+            if (prefManager.isRussianActive) {
+                setLocale(requireContext(), "ru")
+            } else {
+                setLocale(requireContext(), "en")
+            }
             prefManager.isDarkTheme = !prefManager.isDarkTheme
         }
         binding.Logout.background = resources.getDrawable(R.drawable.rounded_inactive)
@@ -131,6 +131,23 @@ class Profile : Fragment(R.layout.profile) {
             prefManager.isLanguagedChoised = false
             val request = NavDeepLinkRequest.Builder
                 .fromUri("android-app://app.web.drjackycv/language".toUri())
+                .build()
+            findNavController().navigate(request)
+        }
+    }
+
+    private fun signOut() {
+        binding.Logout.setOnClickListener {
+            prefManager.isAuth = false
+            CoroutineScope(Dispatchers.IO).launch {
+                try {
+                    supabaseClient.auth.clearSession()
+                } catch (e: Exception) {
+
+                }
+            }
+            val request = NavDeepLinkRequest.Builder
+                .fromUri("android-app://app.web.drjackycv/login".toUri())
                 .build()
             findNavController().navigate(request)
         }
@@ -158,7 +175,6 @@ class Profile : Fragment(R.layout.profile) {
             val byteArray = inputStream?.readBytes()
 
             if (byteArray != null) {
-                // Загрузка изображения из массива байт в хранилище
                 uploadImageToStorage(byteArray)
             } else {
                 Snackbar.make(
@@ -177,11 +193,20 @@ class Profile : Fragment(R.layout.profile) {
             try {
                 supabaseClient.storage
                     .from("user-avatars")
-                    .upload("image${prefManager.id}.png", byteArray)
+                    .upload("image${prefManager.id}.png", byteArray, upsert = true)
             } catch (e: Exception) {
             }
 
         }
+    }
+
+    fun setLocale(context: Context, languageCode: String) {
+        val locale = Locale(languageCode)
+        Locale.setDefault(locale)
+        val resources = context.resources
+        val configuration = Configuration(resources.configuration)
+        configuration.setLocale(locale)
+        context.resources.updateConfiguration(configuration, context.resources.displayMetrics)
     }
 
 }
