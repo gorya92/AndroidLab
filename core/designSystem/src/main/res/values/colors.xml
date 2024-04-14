@@ -16,4 +16,7 @@
 
 
     <color name="detail_bg">@color/white</color>
+
+    <color name="error">#EF5DA8</color>
+    <color name="correct">#5BA890</color>
 </resources>

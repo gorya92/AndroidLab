@@ -21,4 +21,10 @@
     <string name="try_again">Попробуйте еще</string>
     <string name="eh_wrong_answer">Э? Неверный ответ :(</string>
     <string name="that_is">это</string>
+
+    <string name="listening">Прослушивание</string>
+    <string name="please_press_button_and_say_this_n_word_our_service_will_check_n_your_pronunciation">Пожалуйста, нажмите кнопку и произнесите это  слово.\n Наш сервис проверит ваше произношение</string>
+    <string name="your_result">Ваш результат</string>
+    <string name="check_my_speech">Проверьте мою речь</string>
+    <string name="yay_go_next">Ура! Идти дальше</string>
 </resources>

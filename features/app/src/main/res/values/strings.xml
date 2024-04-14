@@ -21,4 +21,9 @@
     <string name="try_again">Try again</string>
     <string name="eh_wrong_answer">Eh? Wrong answer :(</string>
     <string name="that_is">that is</string>
+    <string name="listening">Listening</string>
+    <string name="please_press_button_and_say_this_n_word_our_service_will_check_n_your_pronunciation">Please press button and say this \n word. Our service will check\n your pronunciation</string>
+    <string name="your_result">Your result</string>
+    <string name="check_my_speech">Check my speech</string>
+    <string name="yay_go_next">Yay! Go next</string>
 </resources>

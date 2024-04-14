@@ -3,7 +3,7 @@
 3    package="app.web.drjackycv.features.onboarding" >
 4
 5    <uses-sdk
-6        android:minSdkVersion="21"
+6        android:minSdkVersion="27"
 6-->C:\Users\pospi\StudioProjects\AndroidLab\features\onboarding\src\main\AndroidManifest.xml
 7        android:targetSdkVersion="34" />
 7-->C:\Users\pospi\StudioProjects\AndroidLab\features\onboarding\src\main\AndroidManifest.xml
