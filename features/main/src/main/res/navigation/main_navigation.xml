@@ -85,4 +85,23 @@
 
     </fragment>
 
+    <fragment
+        android:id="@+id/gameOne"
+        android:name="app.web.drjackycv.features.app.presentation.GameOne"
+        tools:layout="@layout/profile"
+        >
+
+        <deepLink app:uri="android-app://app.web.drjackycv/gameone" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/gameTwo"
+        android:name="app.web.drjackycv.features.app.presentation.GameTwo"
+        tools:layout="@layout/game_two_fragment"
+        >
+
+        <deepLink app:uri="android-app://app.web.drjackycv/gametwo" />
+
+    </fragment>
 </navigation>

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:backgroundTint="@color/colorPrimary"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/gameOne"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#410FA3"
+        android:paddingStart="24dp"
+        android:paddingTop="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#410FA3"
+                android:src="@drawable/baseline_arrow_back_ios_24" />
+
+            <TextView
+                android:id="@+id/signup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginEnd="24dp"
+                android:fontFamily="@font/fredoka_medium"
+                android:gravity="center"
+                android:paddingRight="64dp"
+                android:text="@string/guess_the_animal"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/animal_image"
+        android:layout_width="match_parent"
+        android:layout_height="328dp"
+        android:scaleType="fitXY"
+        android:layout_margin="24dp"
+        />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/write_who_is_on_image"
+        android:fontFamily="@font/fredoka_regular"
+        android:textSize="16sp"
+        android:layout_marginHorizontal="24dp"
+        android:textColor="@color/text_color"
+        />
+    
+    <EditText
+        android:id="@+id/animalText"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginHorizontal="24dp"
+        android:lines="1"
+        android:backgroundTint="#080E1E0D"
+        android:background="@drawable/rounded_button"/>
+
+    <Button
+        android:id="@+id/checkButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="#5C6BC0"
+        android:fontFamily="@font/fredoka_medium"
+        android:text="@string/check"
+        android:textColor="#FFFFFF"
+        android:textAllCaps="false"
+        android:layout_marginHorizontal="24dp"
+
+        android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/gameWin"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#5BA890"
+            android:paddingStart="24dp"
+            android:paddingTop="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/back_win"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#5BA890"
+                    android:src="@drawable/baseline_arrow_back_ios_24" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="24dp"
+                    android:fontFamily="@font/fredoka_medium"
+                    android:gravity="center"
+                    android:paddingRight="64dp"
+                    android:text="@string/guess_the_animal"
+                    android:textColor="@color/white"
+                    android:textSize="17sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/win"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/win"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="48dp"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/holy_molly_that_is_right"
+            android:fontFamily="@font/fredoka_medium"
+            android:textSize="20sp"
+            android:layout_marginHorizontal="24dp"
+            android:textColor="@color/text_color"
+            />
+
+        <Button
+            android:id="@+id/win_button"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="#5C6BC0"
+            android:fontFamily="@font/fredoka_medium"
+            android:text="@string/next"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:layout_marginHorizontal="24dp"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/gameLoose"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#D6185D"
+            android:paddingStart="24dp"
+            android:paddingTop="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/back_Loose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#D6185D"
+                    android:src="@drawable/baseline_arrow_back_ios_24" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="24dp"
+                    android:fontFamily="@font/fredoka_medium"
+                    android:gravity="center"
+                    android:paddingRight="64dp"
+                    android:text="@string/guess_the_animal"
+                    android:textColor="@color/white"
+                    android:textSize="17sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/loose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/loose"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="48dp"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/eh_wrong_answer"
+            android:fontFamily="@font/fredoka_medium"
+            android:textSize="20sp"
+            android:layout_marginHorizontal="24dp"
+            android:textColor="@color/text_color"
+            />
+
+        <TextView
+            android:id="@+id/loose_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:fontFamily="@font/fredoka_medium"
+            android:textSize="20sp"
+            android:layout_marginHorizontal="24dp"
+            android:textColor="@color/text_color"
+            />
+
+        <Button
+            android:id="@+id/loose_next_button"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="#5C6BC0"
+            android:fontFamily="@font/fredoka_medium"
+            android:text="@string/next"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:layout_marginHorizontal="24dp"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/loose_try_again_button"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="#5C6BC0"
+            android:fontFamily="@font/fredoka_medium"
+            android:text="@string/try_again"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:layout_marginHorizontal="24dp"
+            android:textSize="20sp" />
+    </LinearLayout>
+</LinearLayout>

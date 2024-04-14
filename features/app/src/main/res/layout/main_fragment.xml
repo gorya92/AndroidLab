@@ -214,6 +214,7 @@
             android:layout_marginTop="10dp">
 
         <LinearLayout
+            android:id="@+id/first_game"
             android:layout_width="150dp"
             android:layout_height="120dp"
             android:background="@drawable/rounded_active"

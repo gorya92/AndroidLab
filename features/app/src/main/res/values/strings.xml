@@ -14,4 +14,11 @@
     <string name="word_practice">Word practice</string>
     <string name="audition">Audition</string>
     <string name="game">Game</string>
+    <string name="write_who_is_on_image">Write who is on image</string>
+    <string name="check">Check</string>
+    <string name="holy_molly_that_is_right">Holy Molly! That is Right!</string>
+    <string name="next">Next</string>
+    <string name="try_again">Try again</string>
+    <string name="eh_wrong_answer">Eh? Wrong answer :(</string>
+    <string name="that_is">that is</string>
 </resources>

@@ -55,13 +55,22 @@ class MainScreen : Fragment(R.layout.main_fragment) {
         binding.profiletv.text = "${binding.profiletv.text} ${prefManager.email}"
         downloadAndDisplayProfilePicture()
         getAllUsersData()
+        toGame()
     }
 
-    fun getAllUsersData() {
+    private fun getAllUsersData() {
         CoroutineScope(Dispatchers.Main).launch {
 
 
             val users = supabaseClient.from("users").select().decodeList<Users>()
+
+            val user = users.find { it.email == prefManager.email }
+
+            if (user != null) {
+                prefManager.points = user.points
+            } else {
+                prefManager.points = 0f
+            }
 
             val sortedUsers = users.sortedByDescending { it.points }
 
@@ -81,6 +90,20 @@ class MainScreen : Fragment(R.layout.main_fragment) {
         }
     }
 
+    private fun toGame() {
+        binding.firstGame.setOnClickListener {
+            val request = NavDeepLinkRequest.Builder
+                .fromUri("android-app://app.web.drjackycv/gameone".toUri())
+                .build()
+            findNavController().navigate(request)
+        }
+        binding.secondGame.setOnClickListener {
+            val request = NavDeepLinkRequest.Builder
+                .fromUri("android-app://app.web.drjackycv/gametwo".toUri())
+                .build()
+            findNavController().navigate(request)
+        }
+    }
 
     private fun toProfile() {
         binding.profileAvatar.setOnClickListener {
