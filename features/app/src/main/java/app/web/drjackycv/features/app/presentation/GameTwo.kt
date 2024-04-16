@@ -321,7 +321,6 @@ class GameTwo : Fragment(R.layout.game_two_fragment) {
 
 
             } catch (e: Exception) {
-                Log.e("JOPS", e.toString())
             }
         }
     }

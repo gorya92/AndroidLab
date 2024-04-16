@@ -69,6 +69,5 @@ dependencies {
     implementation(project(Depends.Features.app))
     implementation(project(Depends.Features.onboarding))
     implementation(project(Depends.Core.navigation))
-    implementation(project(Depends.Core.network))
     implementation(project(Depends.Core.designSystem))
 }

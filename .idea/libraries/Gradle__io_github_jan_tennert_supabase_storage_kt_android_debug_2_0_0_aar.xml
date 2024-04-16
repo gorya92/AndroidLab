@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: io.github.jan-tennert.supabase:storage-kt-android-debug:2.0.0@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/fcd81f64a2e4ec9f22483d62726065ff/transformed/storage-kt-debug/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fcd81f64a2e4ec9f22483d62726065ff/transformed/storage-kt-debug/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/91482953e0b98e763c8847bb8580c547/transformed/storage-kt-debug/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/91482953e0b98e763c8847bb8580c547/transformed/storage-kt-debug/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

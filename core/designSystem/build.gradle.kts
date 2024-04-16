@@ -74,6 +74,5 @@ dependencies {
     androidTestImplementation(Depends.Libraries.test_runner)
     androidTestImplementation(Depends.Libraries.espresso_core)
 
-    implementation(project(Depends.Core.network))
     implementation(project(Depends.Common.exceptions))
 }

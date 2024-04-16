@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: de.hdodenhof:circleimageview:3.1.0@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/af1b046aa96b1a6600d7d20936c82fb7/transformed/circleimageview-3.1.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/af1b046aa96b1a6600d7d20936c82fb7/transformed/circleimageview-3.1.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/af1b046aa96b1a6600d7d20936c82fb7/transformed/circleimageview-3.1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/3e0ec6ceed94f7b112ce8ab6f22ec1a1/transformed/circleimageview-3.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3e0ec6ceed94f7b112ce8ab6f22ec1a1/transformed/circleimageview-3.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3e0ec6ceed94f7b112ce8ab6f22ec1a1/transformed/circleimageview-3.1.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.hdodenhof/circleimageview/3.1.0/e33964c462b854162fee2bd3cd52889ef878df77/circleimageview-3.1.0-javadoc.jar!/" />

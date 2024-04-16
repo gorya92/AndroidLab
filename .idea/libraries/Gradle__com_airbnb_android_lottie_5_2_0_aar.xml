@@ -1,12 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: com.airbnb.android:lottie:5.2.0@aar" external-system-id="GRADLE">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/8463666b1476a5ce6a2e443981c3ba13/transformed/lottie-5.2.0/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/12a27cbb45209b98e93e20807bd23faf/transformed/lottie-5.2.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8463666b1476a5ce6a2e443981c3ba13/transformed/lottie-5.2.0/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8463666b1476a5ce6a2e443981c3ba13/transformed/lottie-5.2.0/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/8463666b1476a5ce6a2e443981c3ba13/transformed/lottie-5.2.0/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/12a27cbb45209b98e93e20807bd23faf/transformed/lottie-5.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/12a27cbb45209b98e93e20807bd23faf/transformed/lottie-5.2.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/12a27cbb45209b98e93e20807bd23faf/transformed/lottie-5.2.0/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

@@ -142,7 +142,6 @@ class GameThree : Fragment(R.layout.game_three_fragment) {
 
 
             } catch (e: Exception) {
-                Log.e("JOPS", e.toString())
             }
         }
     }

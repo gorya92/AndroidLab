@@ -19,7 +19,6 @@ dependencyResolutionManagement {
 }
 rootProject.name = "MVIModularizationTemplate"
 include(":app")
-include(":core:network")
 include(":core:designSystem")
 include(":core:navigation")
 include(":common:exceptions")

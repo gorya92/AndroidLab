@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.linked.project.id=":features:onboarding:androidTest" external.linked.project.path="$MODULE_DIR$/../../../../features/onboarding" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.type="sourceSet" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
+    <facet external-system-id="GRADLE" type="android" name="Android">
+      <configuration>
+        <option name="SELECTED_BUILD_VARIANT" value="debug" />
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="" />
+        <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../../features/onboarding/src/androidTest/res;file://$MODULE_DIR$/../../../../features/onboarding/src/androidTestDebug/res;file://$MODULE_DIR$/../../../../features/onboarding/build/generated/res/rs/androidTest/debug;file://$MODULE_DIR$/../../../../features/onboarding/build/generated/res/resValues/androidTest/debug" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
+        <option name="PROJECT_TYPE" value="1" />
+      </configuration>
+    </facet>
     <facet external-system-id="GRADLE" type="kotlin-language" name="Kotlin">
       <configuration version="5" platform="JVM 11" allPlatforms="JVM [11]" useProjectSettings="false">
         <additionalVisibleModuleNames>:features:onboarding:main</additionalVisibleModuleNames>
@@ -46,18 +58,6 @@
         </compilerArguments>
       </configuration>
     </facet>
-    <facet external-system-id="GRADLE" type="android" name="Android">
-      <configuration>
-        <option name="SELECTED_BUILD_VARIANT" value="debug" />
-        <option name="ALLOW_USER_CONFIGURATION" value="false" />
-        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
-        <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
-        <option name="RES_FOLDERS_RELATIVE_PATH" value="" />
-        <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../../features/onboarding/src/androidTest/res;file://$MODULE_DIR$/../../../../features/onboarding/src/androidTestDebug/res;file://$MODULE_DIR$/../../../../features/onboarding/build/generated/res/rs/androidTest/debug;file://$MODULE_DIR$/../../../../features/onboarding/build/generated/res/resValues/androidTest/debug" />
-        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
-        <option name="PROJECT_TYPE" value="1" />
-      </configuration>
-    </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11">
     <output-test url="file://$MODULE_DIR$/../../../../features/onboarding/build/intermediates/javac/debugAndroidTest/classes" />
@@ -90,74 +90,12 @@
     <orderEntry type="module" module-name="MVIModularizationTemplate.core.navigation.main" scope="TEST" />
     <orderEntry type="module" module-name="MVIModularizationTemplate.core.designSystem.main" scope="TEST" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.test.ext:junit:1.1.4@aar" level="project" />
-    <orderEntry type="module-library" scope="TEST">
-      <library name="Gradle: androidx.test:core:1.5.0@aar">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/e0d1a96c924d1b3ff628265fc59b07dc/transformed/core-1.5.0/jars/classes.jar!/" />
-          <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e0d1a96c924d1b3ff628265fc59b07dc/transformed/core-1.5.0/res" />
-          <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e0d1a96c924d1b3ff628265fc59b07dc/transformed/core-1.5.0/AndroidManifest.xml" />
-        </CLASSES>
-        <JAVADOC>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.test/core/1.5.0/50a7c88bc23efab4bed11093b47197d11ab3d5a0/core-1.5.0-javadoc.jar!/" />
-        </JAVADOC>
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.test/core/1.5.0/d4ea5ffd68fc05c1e952467fb884f0d82b44ec3b/core-1.5.0-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" scope="TEST">
-      <library name="Gradle: androidx.test:monitor:1.6.0@aar">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/7489973ad271b52e9aea9a50c996ae37/transformed/monitor-1.6.0/jars/classes.jar!/" />
-          <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7489973ad271b52e9aea9a50c996ae37/transformed/monitor-1.6.0/AndroidManifest.xml" />
-        </CLASSES>
-        <JAVADOC>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.test/monitor/1.6.0/8fca905beed7a63d62777fc7cbb94bea33c1261/monitor-1.6.0-javadoc.jar!/" />
-        </JAVADOC>
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.test/monitor/1.6.0/52740979540a082b8b05e1a050ad88b89655d964/monitor-1.6.0-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" scope="TEST">
-      <library name="Gradle: androidx.test:annotation:1.0.1@aar">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/e4262ba25fc193f76da326d79c9d9e45/transformed/annotation-1.0.1/jars/classes.jar!/" />
-          <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e4262ba25fc193f76da326d79c9d9e45/transformed/annotation-1.0.1/AndroidManifest.xml" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.test/annotation/1.0.1/d922fcf4c7ae6c3b54012d21e594409c6c6ac156/annotation-1.0.1-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.test:core:1.5.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.test:monitor:1.6.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.test:annotation:1.0.1@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.annotation:annotation-experimental:1.3.0@aar" level="project" />
-    <orderEntry type="module-library" scope="TEST">
-      <library name="Gradle: androidx.tracing:tracing:1.0.0@aar">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/2c7648b358cbee6bab25b19cddbc9fa9/transformed/tracing-1.0.0/jars/classes.jar!/" />
-          <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2c7648b358cbee6bab25b19cddbc9fa9/transformed/tracing-1.0.0/AndroidManifest.xml" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.tracing/tracing/1.0.0/aa6dafdce323d80a993c5427cf81d5072f023c8c/tracing-1.0.0-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" scope="TEST">
-      <library name="Gradle: androidx.test.services:storage:1.4.2@aar">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/cd33df95befb67c8f2c6f7970e6de900/transformed/storage-1.4.2/jars/classes.jar!/" />
-          <root url="file://$USER_HOME$/.gradle/caches/transforms-3/cd33df95befb67c8f2c6f7970e6de900/transformed/storage-1.4.2/AndroidManifest.xml" />
-        </CLASSES>
-        <JAVADOC>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.test.services/storage/1.4.2/edb6438b0e7e21c66b22184eebdb13cd5167161a/storage-1.4.2-javadoc.jar!/" />
-        </JAVADOC>
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.test.services/storage/1.4.2/7653e58ad020a74392900229f15971ffb69d57ea/storage-1.4.2-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.tracing:tracing:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.test.services:storage:1.4.2@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.test:runner:1.5.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.test.espresso:espresso-core:3.5.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.test.espresso:espresso-idling-resource:3.5.0@aar" level="project" />
@@ -203,7 +141,7 @@
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.interpolator:interpolator:1.0.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.cardview:cardview:1.0.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.coordinatorlayout:coordinatorlayout:1.1.0@aar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: androidx.constraintlayout:constraintlayout:2.0.4@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.constraintlayout:constraintlayout:2.0.1@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.dynamicanimation:dynamicanimation:1.0.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.legacy:legacy-support-core-utils:1.0.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.documentfile:documentfile:1.0.0@aar" level="project" />
@@ -238,17 +176,7 @@
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.credentials:credentials-play-services-auth:1.2.2@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.13.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
-    <orderEntry type="module-library" scope="TEST">
-      <library name="Gradle: androidx.annotation:annotation:1.5.0">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.5.0/857678d6b4ca7b28571ef7935c668bdb57e15027/annotation-1.5.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.5.0/31f8c57024fd39cfa1ce4b1a73a80d22901978b3/annotation-1.5.0-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.annotation:annotation:1.5.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.9.21" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains:annotations:23.0.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
@@ -272,7 +200,7 @@
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.arch.core:core-common:2.2.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.collection:collection:1.1.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.collection:collection-ktx:1.1.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: androidx.constraintlayout:constraintlayout-solver:2.0.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.constraintlayout:constraintlayout-solver:2.0.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.paging:paging-common:3.1.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.paging:paging-common-ktx:3.1.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: io.reactivex.rxjava3:rxjava:3.1.5" level="project" />
