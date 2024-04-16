@@ -118,13 +118,52 @@
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.test.espresso:espresso-core:3.5.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.test.espresso:espresso-idling-resource:3.5.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.theartofdev.edmodo:android-image-cropper:2.8.0@aar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: androidx.appcompat:appcompat:1.2.0@aar" level="project" />
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: androidx.appcompat:appcompat:1.2.0@aar">
+        <ANNOTATIONS>
+          <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/cb0b455fb5f5525d21e98cb232477bea/transformed/appcompat-1.2.0/annotations.zip!/" />
+        </ANNOTATIONS>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/cb0b455fb5f5525d21e98cb232477bea/transformed/appcompat-1.2.0/jars/classes.jar!/" />
+          <root url="file://$USER_HOME$/.gradle/caches/transforms-3/cb0b455fb5f5525d21e98cb232477bea/transformed/appcompat-1.2.0/res" />
+          <root url="file://$USER_HOME$/.gradle/caches/transforms-3/cb0b455fb5f5525d21e98cb232477bea/transformed/appcompat-1.2.0/AndroidManifest.xml" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.core:core:1.9.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-runtime:2.6.2@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.versionedparcelable:versionedparcelable:1.1.1@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.cursoradapter:cursoradapter:1.0.0@aar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: androidx.fragment:fragment:1.5.4@aar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: androidx.activity:activity:1.5.1@aar" level="project" />
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: androidx.fragment:fragment:1.5.4@aar">
+        <ANNOTATIONS>
+          <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/4a5d5c367c0fa369512d0b2fa5093cb5/transformed/fragment-1.5.4/annotations.zip!/" />
+        </ANNOTATIONS>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/4a5d5c367c0fa369512d0b2fa5093cb5/transformed/fragment-1.5.4/jars/classes.jar!/" />
+          <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4a5d5c367c0fa369512d0b2fa5093cb5/transformed/fragment-1.5.4/res" />
+          <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4a5d5c367c0fa369512d0b2fa5093cb5/transformed/fragment-1.5.4/AndroidManifest.xml" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: androidx.activity:activity:1.5.1@aar">
+        <ANNOTATIONS>
+          <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/3fe3c2d8d12a93984aa19d566ddd7d2e/transformed/activity-1.5.1/annotations.zip!/" />
+        </ANNOTATIONS>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/3fe3c2d8d12a93984aa19d566ddd7d2e/transformed/activity-1.5.1/jars/classes.jar!/" />
+          <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3fe3c2d8d12a93984aa19d566ddd7d2e/transformed/activity-1.5.1/res" />
+          <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3fe3c2d8d12a93984aa19d566ddd7d2e/transformed/activity-1.5.1/AndroidManifest.xml" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-viewmodel:2.6.2@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.core:core-ktx:1.9.0@aar" level="project" />
@@ -132,10 +171,29 @@
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.savedstate:savedstate:1.2.1@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.loader:loader:1.0.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-livedata:2.6.2@aar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: androidx.arch.core:core-runtime:2.1.0@aar" level="project" />
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: androidx.arch.core:core-runtime:2.1.0@aar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/3538594003e72eb8f6b899c6e30fef37/transformed/core-runtime-2.1.0/jars/classes.jar!/" />
+          <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3538594003e72eb8f6b899c6e30fef37/transformed/core-runtime-2.1.0/AndroidManifest.xml" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.viewpager:viewpager:1.0.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.customview:customview:1.1.0@aar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: androidx.appcompat:appcompat-resources:1.2.0@aar" level="project" />
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: androidx.appcompat:appcompat-resources:1.2.0@aar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/e5d8f1f148619d3769529ef753cebc00/transformed/appcompat-resources-1.2.0/jars/classes.jar!/" />
+          <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e5d8f1f148619d3769529ef753cebc00/transformed/appcompat-resources-1.2.0/res" />
+          <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e5d8f1f148619d3769529ef753cebc00/transformed/appcompat-resources-1.2.0/AndroidManifest.xml" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.vectordrawable:vectordrawable:1.1.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.vectordrawable:vectordrawable-animated:1.1.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.interpolator:interpolator:1.0.0@aar" level="project" />
@@ -151,8 +209,28 @@
     <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.leakcanary:leakcanary-object-watcher-android-support-fragments:2.10@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.leakcanary:leakcanary-object-watcher-android:2.10@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.multidex:multidex:2.0.1@aar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: androidx.fragment:fragment-ktx:1.5.4@aar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: androidx.activity:activity-ktx:1.5.1@aar" level="project" />
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: androidx.fragment:fragment-ktx:1.5.4@aar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/07dbb88bec3511587983901993bb40fb/transformed/fragment-ktx-1.5.4/jars/classes.jar!/" />
+          <root url="file://$USER_HOME$/.gradle/caches/transforms-3/07dbb88bec3511587983901993bb40fb/transformed/fragment-ktx-1.5.4/res" />
+          <root url="file://$USER_HOME$/.gradle/caches/transforms-3/07dbb88bec3511587983901993bb40fb/transformed/fragment-ktx-1.5.4/AndroidManifest.xml" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: androidx.activity:activity-ktx:1.5.1@aar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/889a97048c1d631542af7eb29e7d59ff/transformed/activity-ktx-1.5.1/jars/classes.jar!/" />
+          <root url="file://$USER_HOME$/.gradle/caches/transforms-3/889a97048c1d631542af7eb29e7d59ff/transformed/activity-ktx-1.5.1/res" />
+          <root url="file://$USER_HOME$/.gradle/caches/transforms-3/889a97048c1d631542af7eb29e7d59ff/transformed/activity-ktx-1.5.1/AndroidManifest.xml" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-runtime-ktx:2.6.2@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.savedstate:savedstate-ktx:1.2.1@aar" level="project" />
@@ -187,7 +265,20 @@
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.coordinatorlayout:coordinatorlayout:1.1.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.constraintlayout:constraintlayout:2.0.1@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.dynamicanimation:dynamicanimation:1.0.0@aar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: androidx.transition:transition:1.2.0@aar" level="project" />
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: androidx.transition:transition:1.2.0@aar">
+        <ANNOTATIONS>
+          <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/a5bc64165a550a89fe6e70a035611b2d/transformed/transition-1.2.0/annotations.zip!/" />
+        </ANNOTATIONS>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/a5bc64165a550a89fe6e70a035611b2d/transformed/transition-1.2.0/jars/classes.jar!/" />
+          <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a5bc64165a550a89fe6e70a035611b2d/transformed/transition-1.2.0/res" />
+          <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a5bc64165a550a89fe6e70a035611b2d/transformed/transition-1.2.0/AndroidManifest.xml" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.viewpager2:viewpager2:1.0.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.13.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
@@ -210,8 +301,32 @@
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.8.10" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.okhttp3:okhttp:4.9.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.okio:okio-jvm:3.2.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.10" level="project" />
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.8.10/7c002ac41f547a82e81dfebd2a20577a738dbf3f/kotlin-stdlib-jdk8-1.8.10.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.8.10/5b8f86fea035328fc9e8c660773037a3401ce25f/kotlin-stdlib-jdk8-1.8.10-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.8.10/20739e7aae2a2bfb66c4081b233ffea7b947cf77/kotlin-stdlib-jdk8-1.8.10-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.10">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.8.10/cb726a23c808a850a43e7d6b9d1ba91b02fe9f05/kotlin-stdlib-jdk7-1.8.10.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.8.10/5b8f86fea035328fc9e8c660773037a3401ce25f/kotlin-stdlib-jdk7-1.8.10-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.8.10/3641d7cb7650db9fe93a5361b1b88cbcefdb01e0/kotlin-stdlib-jdk7-1.8.10-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
     <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.leakcanary:shark-android:2.10" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.leakcanary:shark:2.10" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.leakcanary:shark-graph:2.10" level="project" />
@@ -222,7 +337,19 @@
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.paging:paging-common:3.1.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.paging:paging-common-ktx:3.1.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: io.reactivex.rxjava3:rxjava:3.0.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.reactivestreams:reactive-streams:1.0.3" level="project" />
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: org.reactivestreams:reactive-streams:1.0.3">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.3/d9fb7a7926ffa635b3dcaa5049fb2bfa25b3e7d0/reactive-streams-1.0.3.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.3/a0b30dc9ef9568da72ee6ab2382bf2ce9cfc6270/reactive-streams-1.0.3-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.3/e6ffdff8c438d959376c91d94b319457354a84c5/reactive-streams-1.0.3-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.datastore:datastore-core:1.0.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.datastore:datastore-preferences-core:1.0.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.google.dagger:dagger:2.44" level="project" />

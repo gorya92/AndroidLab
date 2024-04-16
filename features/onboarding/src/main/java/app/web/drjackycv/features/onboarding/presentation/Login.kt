@@ -87,7 +87,6 @@ class Login : Fragment(R.layout.login_fragment) {
             setLocale(requireContext(), "ru")
         } else {
             setLocale(requireContext(), "en")
-
         }
         updateScreen()
     }
@@ -192,7 +191,6 @@ class Login : Fragment(R.layout.login_fragment) {
         }
     }
 
-    private lateinit var callback: (String, String) -> Unit
     private fun validateGoogleButton() {
         binding.googleBtn.setOnClickListener {
             CoroutineScope(Dispatchers.IO).launch {
@@ -252,6 +250,7 @@ class Login : Fragment(R.layout.login_fragment) {
 
     private fun validateBackArrow() {
         binding.back.setOnClickListener {
+            prefManager.isLanguagedChoised = false
             val request = NavDeepLinkRequest.Builder
                 .fromUri("android-app://app.web.drjackycv/language".toUri())
                 .build()
